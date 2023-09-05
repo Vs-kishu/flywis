@@ -18,11 +18,6 @@
 .bg-black{
 background-color: rgba(0, 0, 0, 0.4);
 }
-.btn-bookNow{
-    
-}
-
-
 .text-color{
     color: #E5D896;
 }
@@ -31,6 +26,13 @@ background-color: rgba(0, 0, 0, 0.4);
 }
 .btn-text{
     color: #042B26;
+}
+.w-large{
+    width: 100vw,
+
+}
+.h-large{
+    height: 100vh;
 }
 
 @media (max-width: 768px) {

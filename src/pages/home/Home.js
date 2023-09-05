@@ -5,6 +5,8 @@ import MenuOptions from "../../components/home/MenuOptions";
 import "./home.css";
 import HeroSection from "../../components/home/HeroSection";
 import Services from "../../components/home/Services";
+import LimitedOffer from "../../components/home/LimitedOffer";
+import ClientReviews from "../../components/home/ClientReviews";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <MenuOptions />
       <HeroSection />
       <Services />
+      <LimitedOffer />
+      <ClientReviews />
     </>
   );
 };

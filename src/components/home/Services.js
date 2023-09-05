@@ -4,7 +4,7 @@ import { ServiceCardImages } from "../../constants/constant";
 
 const Services = () => {
   return (
-    <section>
+    <section className="mb-5">
       <div className="px-2 py-2 text-center fw-bolder mx-auto w-25 my-4 fs-4 btn-bg btn-text">
         Services Menu By Concern
       </div>
