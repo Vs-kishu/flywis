@@ -1,0 +1,42 @@
+
+.header-btn{
+    box-sizing: border-box;
+    border: "2px solid #042B26",
+}
+.header-btn >img {
+    object-fit: contain;
+}
+.bg-color{
+    background-color: #042B26;
+}
+.font-sacra{
+    font-family: 'Sacramento', cursive;
+}
+.text-large{
+    font-size: 5rem;
+}
+.bg-black{
+background-color: rgba(0, 0, 0, 0.4);
+}
+.btn-bookNow{
+    
+}
+
+
+.text-color{
+    color: #E5D896;
+}
+.btn-bg{
+    background-color:#E5D896 ;
+}
+.btn-text{
+    color: #042B26;
+}
+
+@media (max-width: 768px) {
+    .btn-container {
+     display: flex;
+     flex-direction: column;
+     
+    }
+}
