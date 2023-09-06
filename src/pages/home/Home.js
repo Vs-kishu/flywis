@@ -14,8 +14,6 @@ import "./home.css";
 const Home = () => {
   return (
     <>
-      <TopHeader />
-      <Navbar />
       <MenuOptions />
       <HeroSection />
       <Services />
