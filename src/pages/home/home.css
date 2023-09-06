@@ -46,6 +46,10 @@ background-color: rgba(0, 0, 0, 0.4);
 font-weight: 500;
 font-size: larger;
 }
+.f-size{
+    font-size: smaller;
+    letter-spacing: 1px;
+}
 .c-position{
   position: fixed;
   bottom:0;
@@ -54,6 +58,10 @@ font-size: larger;
 .pointer{
     cursor: pointer;
 }
+.style-none{
+    list-style: none;
+}
+
 
 @media (max-width: 768px) {
     .btn-container {

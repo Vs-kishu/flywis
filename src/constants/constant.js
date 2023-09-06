@@ -79,3 +79,39 @@ export const pictures = [
   "/asessts/pictures/pic (4).png",
   "/asessts/pictures/pic (5).png",
 ];
+
+export const paymentCards = [
+  "/asessts/footer/card (1).png",
+  "/asessts/footer/card (2).png",
+  "/asessts/footer/card (3).png",
+  "/asessts/footer/card (4).png",
+];
+export const about = [
+  {
+    title: "About",
+    options: ["HOME", "ABOUT US", "SHOP", "FAQ", "SERVICES", "CONTACT US"],
+  },
+  {
+    title: "Services",
+    options: [
+      "AGING",
+      "ACNE",
+      "HAIR LOSS",
+      "FAT REDUCTION",
+      "PIGMENTATION",
+      "ACNE SCAR",
+    ],
+  },
+  {
+    title: "Useful Links",
+    options: [
+      "PAYMENT PLANS",
+      "MEMBERSHIP",
+      "PRIVACY POLICY",
+      "TERMS OF USE",
+      "SHIPPING DETAILS",
+      "SUPPORT",
+      "INFORMATION",
+    ],
+  },
+];
