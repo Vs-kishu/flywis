@@ -22,7 +22,7 @@ const ClientReviews = () => {
         </div>
       </div>
       <div
-        className=" d-flex gap-3 p-5"
+        className=" d-flex gap-3 p-5 no-scrollbar"
         style={{ maxWidth: "100%", overflowX: "auto" }}
       >
         <ReviewCard />

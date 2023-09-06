@@ -71,3 +71,11 @@ export const latestNews = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
   },
 ];
+
+export const pictures = [
+  "/asessts/pictures/pic (1).png",
+  "/asessts/pictures/pic (2).png",
+  "/asessts/pictures/pic (3).png",
+  "/asessts/pictures/pic (4).png",
+  "/asessts/pictures/pic (5).png",
+];
