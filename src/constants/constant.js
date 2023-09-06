@@ -19,3 +19,55 @@ export const partners = [
   "asessts/description/partner (7).png",
   "asessts/description/partner (8).png",
 ];
+
+export const latestNews = [
+  {
+    src: "/asessts/latestnews/news (1).png",
+    title: "lorem Ipsum",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
+  },
+  {
+    src: "/asessts/latestnews/news (2).png",
+    title: "lorem Ipsum",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
+  },
+  {
+    src: "/asessts/latestnews/news (3).png",
+    title: "lorem Ipsum",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
+  },
+  {
+    src: "/asessts/latestnews/news (1).png",
+    title: "lorem Ipsum",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
+  },
+
+  {
+    src: "/asessts/latestnews/news (2).png",
+    title: "lorem Ipsum",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
+  },
+  {
+    src: "/asessts/latestnews/news (3).png",
+    title: "lorem Ipsum",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
+  },
+  {
+    src: "/asessts/latestnews/news (3).png",
+    title: "lorem Ipsum",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
+  },
+  {
+    src: "/asessts/latestnews/news (1).png",
+    title: "lorem Ipsum",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
+  },
+];
