@@ -1,6 +1,4 @@
 import React from "react";
-import TopHeader from "../../components/home/TopHeader";
-import Navbar from "../../components/home/Navbar";
 import MenuOptions from "../../components/home/MenuOptions";
 import HeroSection from "../../components/home/HeroSection";
 import Services from "../../components/home/Services";
@@ -10,10 +8,11 @@ import Description from "../../components/home/Description";
 import LatestNews from "../../components/home/LatestNews";
 import Pictures from "../../components/home/Pictures";
 import "./home.css";
+import OfferCard from "../../components/home/OfferCard";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <MenuOptions />
       <HeroSection />
       <Services />
@@ -22,7 +21,10 @@ const Home = () => {
       <Description />
       <LatestNews />
       <Pictures />
-    </>
+      <div className="c-position z-index-5 w-25 h-25 mb-3">
+        <OfferCard />
+      </div>
+    </div>
   );
 };
 

@@ -6,8 +6,8 @@
 .header-btn >img {
     object-fit: contain;
 }
-.bg-color{
-    background-color: #042B26;
+.z-index{
+    z-index: 1000
 }
 .font-sacra{
     font-family: 'Sacramento', cursive;
@@ -45,6 +45,14 @@ background-color: rgba(0, 0, 0, 0.4);
 .f-w{
 font-weight: 500;
 font-size: larger;
+}
+.c-position{
+  position: fixed;
+  bottom:0;
+  right:5%;
+}
+.pointer{
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
