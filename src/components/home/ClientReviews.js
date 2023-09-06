@@ -3,7 +3,7 @@ import ReviewCard from "./ReviewCard";
 
 const ClientReviews = () => {
   return (
-    <div>
+    <div className="mb-5">
       <div className="d-flex flex-column align-items-center ">
         <h1 className="btn-text">Client Reviews</h1>
         <p className="w-50 lh-base text-center mt-3 mb-3">
@@ -22,11 +22,20 @@ const ClientReviews = () => {
         </div>
       </div>
       <div
-        className="w-100 d-flex gap-3 p-5"
+        className=" d-flex gap-3 p-5"
         style={{ maxWidth: "100%", overflowX: "auto" }}
       >
         <ReviewCard />
-
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
         <ReviewCard />
         <ReviewCard />
         <ReviewCard />

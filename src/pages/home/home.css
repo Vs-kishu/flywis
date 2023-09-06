@@ -34,6 +34,14 @@ background-color: rgba(0, 0, 0, 0.4);
 .h-large{
     height: 100vh;
 }
+.align-between{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.bg-partner{
+    background: rgba(229, 216, 150, 0.40);
+}
 
 @media (max-width: 768px) {
     .btn-container {

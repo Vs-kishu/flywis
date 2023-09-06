@@ -8,3 +8,14 @@ export const ServiceCardImages = [
   { src: "/asessts/serviceCards/service7.png", service: "Laser Hair Removal" },
   { src: "/asessts/serviceCards/service8.png", service: "IV Injection" },
 ];
+
+export const partners = [
+  "asessts/description/partner (1).png",
+  "asessts/description/partner (2).png",
+  "asessts/description/partner (3).png",
+  "asessts/description/partner (4).png",
+  "asessts/description/partner (5).png",
+  "asessts/description/partner (6).png",
+  "asessts/description/partner (7).png",
+  "asessts/description/partner (8).png",
+];

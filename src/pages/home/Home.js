@@ -7,6 +7,7 @@ import HeroSection from "../../components/home/HeroSection";
 import Services from "../../components/home/Services";
 import LimitedOffer from "../../components/home/LimitedOffer";
 import ClientReviews from "../../components/home/ClientReviews";
+import Description from "../../components/home/Description";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Services />
       <LimitedOffer />
       <ClientReviews />
+      <Description />
     </>
   );
 };

@@ -4,10 +4,10 @@ const ReviewCard = () => {
   return (
     <div
       className="d-flex  flex-column shadow-lg pt-5 px-4 "
-      style={{ height: "50vh" }}
+      style={{ height: "50vh", width: "50vw" }}
     >
       <h5>Claire M.</h5>
-      <p className="fs-6 fw-normal">
+      <p className="fs-6 fw-normal" style={{ width: "250px" }}>
         I’m a teenager who developed stretch marks through puberty. I really
         hated the way it looked. The stretch marks appeared on my thighs, knees,
         and buttocks area. I went to see Shahina for a consultation and she
