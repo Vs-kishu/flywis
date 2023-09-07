@@ -86,7 +86,7 @@ export const paymentCards = [
   "/asessts/footer/card (3).png",
   "/asessts/footer/card (4).png",
 ];
-export const about = [
+export const footerLinks = [
   {
     title: "About",
     options: ["HOME", "ABOUT US", "SHOP", "FAQ", "SERVICES", "CONTACT US"],
@@ -113,5 +113,13 @@ export const about = [
       "SUPPORT",
       "INFORMATION",
     ],
+  },
+];
+export const contact = [
+  { src: "/asessts/footer/contact (1).png", mode: "+91 1234567890" },
+  { src: "/asessts/footer/contact (2).png", mode: "loremipsum@gmail.com" },
+  {
+    src: "/asessts/footer/contact (3).png",
+    mode: "XYZ City, 6th Avenue, New Jersey",
   },
 ];
