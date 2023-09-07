@@ -64,6 +64,7 @@ font-size: larger;
 }
 
 
+
 @media (max-width: 768px) {
     .btn-container {
      display: flex;

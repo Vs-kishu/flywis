@@ -78,6 +78,10 @@ export const pictures = [
   "/asessts/pictures/pic (3).png",
   "/asessts/pictures/pic (4).png",
   "/asessts/pictures/pic (5).png",
+  "/asessts/pictures/pic (2).png",
+  "/asessts/pictures/pic (3).png",
+  "/asessts/pictures/pic (4).png",
+  "/asessts/pictures/pic (5).png",
 ];
 
 export const paymentCards = [
