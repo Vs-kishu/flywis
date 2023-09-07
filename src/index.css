@@ -5,9 +5,9 @@ body{
   font-family: 'Roboto', sans-serif;
   /* font-family: 'Sacramento', cursive; */
 }
-*{
+/* *{
   border: 1px solid red !important;
-}
+} */
 
 .bg-color {
   background-color: #042B26;
