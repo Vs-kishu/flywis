@@ -21,7 +21,7 @@ const Home = () => {
       <Description />
       <LatestNews />
       <Pictures />
-      <div className="c-position z-index-5 w-25 h-25 mb-3">
+      <div className="c-position w-25 h-25 mb-3">
         <OfferCard />
       </div>
     </div>
