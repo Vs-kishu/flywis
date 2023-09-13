@@ -13,30 +13,25 @@ const ServiceCard = ({ src, service }) => {
 
   return (
     <div
-      className="m-2"
+      className="m-2 "
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="position-relative">
-        <img
-          width={410}
-          height={570}
-          src={src}
-          alt="service1"
-          className="img-fluid"
-        />
+      <div className="relative">
+        <img src={src} alt="service1" className="object-contain" />
         {!isHovered && (
-          <p className="position-absolute text-center w-100 start-50 end-0 bottom-0 translate-middle fs-4 text-white">
+          <p className="absolute inset-0 flex items-center justify-center text-white text-2xl bg-black bg-opacity-50">
             {service}
           </p>
         )}
 
         {isHovered && (
-          <div className="position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white bg-black ">
-            <div className="d-flex flex-column align-items-center gap-3">
-              <span className="fs-4">{service}</span>
-
-              <button className="btn-bookNow px-4 bg-transparent border-1 border-light text-white">{`Book Now >`}</button>
+          <div className="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-70">
+            <div className="flex flex-col items-center space-y-3">
+              <span className="text-2xl">{service}</span>
+              <button className="btn-bookNow px-4 border border-white text-white">
+                {" Book Now >"}
+              </button>
             </div>
           </div>
         )}

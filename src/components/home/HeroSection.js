@@ -1,12 +1,14 @@
+import React from "react";
+
 const HeroSection = () => {
   return (
-    <div className="d-flex justify-content-between bg-color text-color  ">
-      <div className="w-100">
-        <h1 className="font-sacra text-large ps-5 pt-5">
+    <div className="flex justify-between bg-primary text-color">
+      <div className="w-full">
+        <h1 className="font-Sacramento text-8xl text-secondary p-5 pt-5">
           Shahina Hoja Aesthetics
         </h1>
         <ul
-          className="px-5 ms-5 fs-5 mt-5 d-flex flex-column gap-2"
+          className="ml-10 text-xl list-disc mt-5 space-y-4"
           style={{ color: "white" }}
         >
           <li>High Acne Clearing Success Rate</li>
@@ -15,13 +17,13 @@ const HeroSection = () => {
           <li>One Time Melasma Treatment</li>
           <li>High Quality Medical Grade Products</li>
         </ul>
-        <button className="w-25 py-2 fw-bold ms-5 mt-5 btn-bg btn-text">
+        <button className="w-1/4 py-2 font-bold ms-5 mt-10 text-primary bg-secondary ml-10">
           BOOK ONLINE
         </button>
       </div>
       <div>
         <img
-          className="img-fluid float-end"
+          className="w-full float-right"
           src="/asessts/hero-img.png"
           alt="hero img"
         />

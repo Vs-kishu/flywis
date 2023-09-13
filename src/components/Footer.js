@@ -3,19 +3,19 @@ import { contact, footerLinks, paymentCards } from "../constants/constant";
 
 const Footer = () => {
   return (
-    <section className="bg-color text-white py-5 position-relative">
-      <div className="d-flex justify-content-between px-5 ">
-        <div className="d-flex flex-column gap-1 align-items-center justify-content-center">
-          <span className="fs-5 f-w">FOLLOW US</span>
-          <div className="d-flex align-items-center justify-content-center gap-2">
+    <section className="bg-primary text-white py-5 px-8 relative">
+      <div className="flex justify-between px-8">
+        <div className="flex flex-col gap-1 items-center justify-center">
+          <span className="text-lg font-medium">FOLLOW US</span>
+          <div className="flex items-center justify-center gap-2">
             <img
               src="/asessts/footer/instagram.png"
-              className="w-25  img-fluid"
+              className="w-16 h-16"
               alt="instagram"
             />
             <img
               src="/asessts/footer/facebook.png"
-              className="w-25  img-fluid"
+              className="w-16 h-16"
               alt="facebook"
             />
           </div>
@@ -27,9 +27,9 @@ const Footer = () => {
             alt="logo"
           />
         </div>
-        <div className="d-flex flex-column gap-1 justify-content-center">
-          <span className="fs-5 f-w">WE ACCEPT</span>
-          <div className="d-flex gap-1">
+        <div className="flex flex-col gap-1 justify-center">
+          <span className="text-lg font-medium">WE ACCEPT</span>
+          <div className="flex gap-2">
             {paymentCards.map((src, index) => (
               <div key={index}>
                 <img src={src} alt="card" />
@@ -38,33 +38,34 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex gap-5 position-relative">
-        <div
-          className="d-flex  justify-content-between  mt-5 ms-4"
-          style={{ width: "60%" }}
-        >
+
+      <div className="flex justify-between gap-5 px-5 relative">
+        <div className="flex justify-between mt-5 w-3/5">
           {footerLinks.map((item, index) => (
-            <div>
-              <h4 className="ps-4 text-color">{item.title}</h4>
+            <div key={index}>
+              <h4 className=" text-secondary text-lg font-medium">
+                {item.title}
+              </h4>
               {item.options.map((option, index) => (
-                <ul className="style-none mt-4">
-                  <li className="text-start f-size  fw-lighter">{`>${option}`}</li>
+                <ul className="list-none mt-4">
+                  <li className="text-left text-sm  font-medium">{`>${option}`}</li>
                 </ul>
               ))}
             </div>
           ))}
         </div>
-        <div className="ms-5 mt-5 ">
-          <h4 className=" text-color">Contact</h4>
+        <div className="ms-5 mt-5">
+          <h4 className=" text-secondary text-lg font-medium">Contact</h4>
           <div>
             {contact.map((item) => (
-              <div className="d-flex align-items-center gap-2 mt-4">
-                <img height={20} className="" src={item.src} alt="contact" />
-                <span className="text-center">{item.mode}</span>
+              <div className="flex items-center gap-2 mt-4">
+                <div className="w-6 h-6">
+                  <img className="" src={item.src} alt="contact" />
+                </div>
+                <span>{item.mode}</span>
               </div>
             ))}
           </div>
-          import React from 'react';
           <div>
             <iframe
               className="mt-3"
@@ -73,35 +74,38 @@ const Footer = () => {
               width="400"
               height="200"
               style={{ border: 0 }}
-              allowfullscreen=""
+              allowFullScreen={true}
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
-        <div className="position-absolute bottom-0 ms-4 d-flex align-items-center gap-3 w-25">
-          <img height={100} src="/asessts/specialOffer.png" alt="offer" />
+
+        <div className="absolute bottom-0  flex items-center gap-3 w-1/4">
+          <div>
+            <img height={100} src="/asessts/specialOffer.png" alt="offer" />
+          </div>
           <h6>
             Get 50$ OFF on your First Visit when you Book through our App.
           </h6>
         </div>
       </div>
-      <div className="d-flex align-items-center ms-4 mt-2 mb-4">
-        <span className="fw-bolder text-color">DOWNLOAD OUR APP : </span>
-        <div className="w-25">
+      <div className="flex items-center mt-4 mb-4">
+        <span className="font-medium text-color mr-5">DOWNLOAD OUR APP : </span>
+        <div className="w-1/4 flex gap-5">
           <img
-            className="w-25 img-fluid"
+            className="w-1/4 img-fluid"
             src="/asessts/footer/download (1).png"
             alt="download"
           />
           <img
-            className="w-25 img-fluid"
+            className="w-1/4 img-fluid"
             src="/asessts/footer/download (1).png"
             alt="download"
           />
         </div>
       </div>
-      <span className="text-color position-absolute bottom-0 start-50 translate-middle">
+      <span className="text-color absolute bottom-0 left-1/2 transform -translate-x-1/2">
         ©️All Rights Reserved 2023
       </span>
     </section>

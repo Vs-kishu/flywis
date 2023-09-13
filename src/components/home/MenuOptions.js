@@ -2,15 +2,15 @@ import React from "react";
 
 const MenuOptions = () => {
   return (
-    <header className="bg-color text-color p-3 ">
-      <ul class="nav nav justify-content-evenly">
-        <li class="nav-item">HOME</li>
-        <li class="nav-item">SHOP</li>
-        <li class="nav-item">SERVICES</li>
-        <li class="nav-item">GALLERY</li>
-        <li class="nav-item">PAYMENT PLANS</li>
-        <li class="nav-item">CONATCT</li>
-        <li class="nav-item">ABOUT US</li>
+    <header className="bg-primary text-color font-medium text-lg text-secondary p-3">
+      <ul className="flex justify-evenly">
+        <li>HOME</li>
+        <li>SHOP</li>
+        <li>SERVICES</li>
+        <li>GALLERY</li>
+        <li>PAYMENT PLANS</li>
+        <li>CONTACT</li>
+        <li>ABOUT US</li>
       </ul>
     </header>
   );

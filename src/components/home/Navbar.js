@@ -4,30 +4,42 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="bg-color ">
-      <header className="navbar  px-3 justify-content-between   navbar-expand-lg">
-        <div>
+    <div className="bg-primary">
+      <header className="flex px-3 justify-between items-center navbar-expand-lg">
+        <div className="w-[10%]">
           <Link className="text-decoration-none" to={"/"}>
             {" "}
-            <img height={80} src="/asessts/navbar/logo.png" alt="logo" />
+            <img src="/asessts/navbar/logo.png" alt="logo" />
           </Link>
         </div>
 
-        <div className="d-flex align-items-center gap-3 ">
-          <img height={20} src="/asessts/navbar/search.png" alt="search" />
-          <FaShoppingCart style={{ color: "#E5D896", fontSize: "1.5rem" }} />
-          <div className="d-flex align-items-center gap-2">
-            <img height={20} src="/asessts/navbar/profile.png" alt="profile" />
-            <Link className="text-decoration-none" to={"/login"}>
-              <span style={{ color: "#E5D896" }}>LOGIN</span>
+        <div className="flex items-center gap-6">
+          <img
+            className="w-8 h-8"
+            src="/asessts/navbar/search.png"
+            alt="search"
+          />
+          <FaShoppingCart className="text-secondary w-8 h-8 text-2xl" />
+          <div className="flex items-center gap-2">
+            <img
+              src="/asessts/navbar/profile.png"
+              className="w-8 h-8"
+              alt="profiles"
+            />
+            <Link className="text-secondary font-medium" to={"/login"}>
+              <span>LOGIN</span>
             </Link>
           </div>
 
-          <img height={40} src="/asessts/navbar/crown.png" alt="crown" />
+          <img
+            className="w-14 h-14"
+            src="/asessts/navbar/crown.png"
+            alt="crown"
+          />
         </div>
       </header>
       <div
-        className="mx-auto "
+        className="mx-auto mt-5"
         style={{ backgroundColor: "#E5D896", height: "2px", width: "85%" }}
       ></div>
     </div>

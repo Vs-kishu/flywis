@@ -4,9 +4,11 @@ import ReviewCard from "./ReviewCard";
 const ClientReviews = () => {
   return (
     <div className="mb-5">
-      <div className="d-flex flex-column align-items-center ">
-        <h1 className="btn-text">Client Reviews</h1>
-        <p className="w-50 lh-base text-center mt-3 mb-3">
+      <div className="flex flex-col items-center">
+        <h1 className="font-medium text-3xl text-primary mb-2">
+          Client Reviews
+        </h1>
+        <p className="w-1/2 text-center mt-3 mb-3">
           We are very proud of the service we provide and stand by every product
           we carry. We work hard to address our client's needs and have them
           leave our spa loving their skin. That's why over 400 people have given
@@ -14,27 +16,16 @@ const ClientReviews = () => {
         </p>
         <div className="mt-4 mb-5">
           <img
-            height={100}
-            className="object-contain"
+            className="object-contain w-1/2 mx-auto"
             src="/asessts/google-review.png"
-            alt="goolw-review"
+            alt="google-review"
           />
         </div>
       </div>
       <div
-        className=" d-flex gap-3 p-5 no-scrollbar"
-        style={{ maxWidth: "100%", overflowX: "auto" }}
+        className="flex gap-3 p-5 overflow-x-auto"
+        style={{ maxWidth: "100%" }}
       >
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
         <ReviewCard />
         <ReviewCard />
         <ReviewCard />
