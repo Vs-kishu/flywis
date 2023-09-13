@@ -17,8 +17,8 @@ const ServiceCard = ({ src, service }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="relative">
-        <img src={src} alt="service1" className="object-contain" />
+      <div className="relative w-full h-[80vh]">
+        <img src={src} alt="service1" className="w-full h-full " />
         {!isHovered && (
           <p className="absolute inset-0 flex items-center justify-center text-white text-2xl bg-black bg-opacity-50">
             {service}
