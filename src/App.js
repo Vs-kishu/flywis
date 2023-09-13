@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import LogIn from "./components/auth/LogIn";
 import SignUp from "./components/auth/SignUp";
 import Contact from "./components/Contact";
+import AboutUs from "./components/AboutUs";
+import MenuOptions from "./components/home/MenuOptions";
 
 const appRouter = createBrowserRouter([
   {
@@ -34,6 +36,10 @@ const appRouter = createBrowserRouter([
         path: "contact",
         element: <Contact />,
       },
+      {
+        path: "aboutus",
+        element: <AboutUs />,
+      },
     ],
   },
 ]);
@@ -43,6 +49,8 @@ function App() {
     <div>
       <TopHeader />
       <Navbar />
+      <MenuOptions />
+
       {/* Use Outlet to render child routes */}
       <Outlet />
       <Footer />

@@ -105,7 +105,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <span className="text-color absolute bottom-0 left-1/2 transform -translate-x-1/2">
+      <span className=" absolute bottom-0 left-1/2 text-secondary transform -translate-x-1/2">
         ©️All Rights Reserved 2023
       </span>
     </section>

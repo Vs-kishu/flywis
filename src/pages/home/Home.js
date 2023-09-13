@@ -1,5 +1,4 @@
 import React from "react";
-import MenuOptions from "../../components/home/MenuOptions";
 import HeroSection from "../../components/home/HeroSection";
 import Services from "../../components/home/Services";
 import LimitedOffer from "../../components/home/LimitedOffer";
@@ -12,7 +11,6 @@ import OfferCard from "../../components/home/OfferCard";
 const Home = () => {
   return (
     <div>
-      <MenuOptions />
       <HeroSection />
       <Services />
       <LimitedOffer />
