@@ -7,6 +7,7 @@ module.exports = {
         primary: "#042B26",
         secondary: "#E5D896",
         lightSecondary: "#E5D89666",
+        green: "#0EAB61",
       },
       fontFamily: {
         Sacramento: ["Sacramento", "cursive"],

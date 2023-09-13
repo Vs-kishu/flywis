@@ -1,5 +1,10 @@
 import React from "react";
-import { contact, footerLinks, paymentCards } from "../constants/constant";
+import {
+  MAP_URL,
+  contact,
+  footerLinks,
+  paymentCards,
+} from "../constants/constant";
 
 const Footer = () => {
   return (
@@ -70,7 +75,7 @@ const Footer = () => {
             <iframe
               className="mt-3"
               title="mapping"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510271751!2d76.76357017426172!3d28.644287354223533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1694055009994!5m2!1sen!2sin"
+              src={MAP_URL}
               width="400"
               height="200"
               style={{ border: 0 }}

@@ -21,7 +21,7 @@ const TopHeader = () => {
       className="py-1"
       style={{ background: customHeaderStyle.background }}
     >
-      <div className="flex gap-4 text-primary font-medium">
+      <div className="flex gap-4 text-primary font-medium ml-5">
         <CustomButton
           src={"/asessts/topheader/gift.png"}
           btnName="GIFT CARDS"

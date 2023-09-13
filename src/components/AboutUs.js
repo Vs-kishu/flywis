@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <hr className="bg-secondary my-10 w-3/4 mx-auto" />
+      <hr className="bg-secondary mt-20 mb-14 w-3/4 mx-auto" />
       <Pictures />
     </section>
   );

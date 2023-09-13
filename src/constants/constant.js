@@ -1,4 +1,8 @@
-export const ServiceCardImages = [
+import { BsTelephoneFill } from "react-icons/bs";
+import { HiMail } from "react-icons/hi";
+import { ImLocation } from "react-icons/im";
+
+const ServiceCardImages = [
   { src: "/asessts/serviceCards/service1.png", service: "Hair Loss" },
   { src: "/asessts/serviceCards/service2.png", service: "Pigmentation" },
   { src: "/asessts/serviceCards/service3.png", service: "Acne" },
@@ -9,7 +13,7 @@ export const ServiceCardImages = [
   { src: "/asessts/serviceCards/service8.png", service: "IV Injection" },
 ];
 
-export const partners = [
+const partners = [
   "asessts/description/partner (1).png",
   "asessts/description/partner (2).png",
   "asessts/description/partner (3).png",
@@ -20,7 +24,7 @@ export const partners = [
   "asessts/description/partner (8).png",
 ];
 
-export const latestNews = [
+const latestNews = [
   {
     src: "/asessts/latestnews/news (1).png",
     title: "lorem Ipsum",
@@ -72,7 +76,7 @@ export const latestNews = [
   },
 ];
 
-export const pictures = [
+const pictures = [
   "/asessts/pictures/pic (1).png",
   "/asessts/pictures/pic (2).png",
   "/asessts/pictures/pic (3).png",
@@ -84,13 +88,13 @@ export const pictures = [
   "/asessts/pictures/pic (5).png",
 ];
 
-export const paymentCards = [
+const paymentCards = [
   "/asessts/footer/card (1).png",
   "/asessts/footer/card (2).png",
   "/asessts/footer/card (3).png",
   "/asessts/footer/card (4).png",
 ];
-export const footerLinks = [
+const footerLinks = [
   {
     title: "About",
     options: ["HOME", "ABOUT US", "SHOP", "FAQ", "SERVICES", "CONTACT US"],
@@ -119,7 +123,7 @@ export const footerLinks = [
     ],
   },
 ];
-export const contact = [
+const contact = [
   { src: "/asessts/footer/contact (1).png", mode: "+91 1234567890" },
   { src: "/asessts/footer/contact (2).png", mode: "loremipsum@gmail.com" },
   {
@@ -127,3 +131,37 @@ export const contact = [
     mode: "XYZ City, 6th Avenue, New Jersey",
   },
 ];
+
+const contactPage = [
+  { icon: <BsTelephoneFill />, mode: "1234567890" },
+  { icon: <HiMail />, mode: "loremipsum@gmail.com" },
+  {
+    icon: <ImLocation />,
+    mode: "905 Watters Creek Boulevard, 141, Allen, Texas, USA",
+  },
+];
+
+const MAP_URL =
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510271751!2d76.76357017426172!3d28.644287354223533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1694055009994!5m2!1sen!2sin";
+
+const ADD_IMG =
+  "https://s3-alpha-sig.figma.com/img/98dd/fc2d/f06d62c194cb4ca989bb188bb00bbbf3?Expires=1695600000&Signature=W9XeU~uj-z3drOc3ZIribJ~ADR1bx3S3vgCbHj0nyZTYx2iFDJgjTTOrj3fWeasC0HDYpVIquqx~LWFat1cbQyUjH4ZEzW68XlVkEd21ELWk0-W40HUJ~hHPhh9D0-Tsjw4XLDWadasEuWyfZeO~Pci63ovLncMHW9L7IQbiGl7gYmshZbInznAAP0XdH2Gis2DkAUpzSBZWlH4Aw032Y04YvbGWNg28SFXSbWC49Qs-SQ4ZBPPACBzLyThXFSOXN3pjClb9qqfWvhwxDU1ypDlRWtWyv61nK6AIL57NHMdPowstYuWaS0B-8DylQv7KAf5rDEA0bg0Hja1W4VW1SQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+
+const STAR =
+  "https://s3-alpha-sig.figma.com/img/3d9f/2c83/3209c56b12a5ba8749966557500d749e?Expires=1695600000&Signature=D2JHPUMMjWxq~6R5qT8nSrQ3gNlmzK6cHAsLBnc34BPgyPlA-fhNEw9Y~xIOaMsqlGIoiITM1xh9LZhBB7RA6M-2vnKKbRx8FXlyR52z5q7YkmQ5rF8czhhgxj78D4VpbcvkRB17ZA41H7p8gCP-yBuCGG7seID~XBqDOIyM1hm0FMFmEoTuG0OE--WlkZGdp~joN3IkjvfHwx8iKvTZiMPWcuPsLYhk7y-d9ta~XpoLC795OhjTS8Az6xnM-pMAXbA5ClgVY-mOsRicyT-2GvWAcvfg4BOjb8LUnMrWox-R~6ZylCW6LQj8G8Xkl1lb7I16780jeU~50scfGgR6sg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+const MAP_IMG =
+  "https://s3-alpha-sig.figma.com/img/0ba3/f75a/79292454d79968ee69ee7568ab7bb909?Expires=1695600000&Signature=APxMQzC66ya-7DFTgWd4hZH2SsrpK9tp38nOqTxS54B9T7mahAJdAx47IyPg8OpP-Miuzi9TQ00QX7Cezon208ACgb2X4RgIbWmUOVjVI3KETVfi6VEDDSxBl~aARQDqqd3BHe0NC-N-2~lRha-Bd~rh-EAHyIcCmHjCUr09ApRKDLz-aEipjoN1BDbentjmqsNkJnqusWLNb51sDNfa5EE10xVO3BULkp2nZgGBulBgtRwqwvUNsEJ0VpSNfojHdMn12h8SwQu4f4LpFHH~Ml9kI9fedBQ7KnwAyb-Uj6gOyPGl901pQRvuN~e-kLr8re3mbLKKSQIby0TfH84-hQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+export {
+  pictures,
+  ServiceCardImages,
+  partners,
+  paymentCards,
+  latestNews,
+  footerLinks,
+  contact,
+  contactPage,
+  MAP_URL,
+  ADD_IMG,
+  STAR,
+  MAP_IMG,
+};

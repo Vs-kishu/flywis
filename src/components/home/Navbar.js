@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="bg-primary">
-      <header className="flex px-3 justify-between items-center navbar-expand-lg">
+      <header className="flex px-3 py-3 justify-between items-center navbar-expand-lg">
         <div className="w-[10%]">
           <Link className="text-decoration-none" to={"/"}>
             {" "}

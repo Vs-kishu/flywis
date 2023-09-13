@@ -13,7 +13,7 @@ const LatestNews = () => {
 
   return (
     <section className="mt-5">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center my-14">
         <h1 className="text-3xl text-primary font-medium">Latest News</h1>
         <p className="w-1/2 text-center mt-3 mb-3">
           Nourish your skin with toxic-free cosmetic products. With offers you
@@ -30,7 +30,7 @@ const LatestNews = () => {
           />
         ))}
       </div>
-      <div className="flex justify-center mt-5 mb-5">
+      <div className="flex justify-center my-20">
         <button
           className="w-1/4 py-2 font-bold text-primary bg-secondary"
           onClick={toggleShowAll}
