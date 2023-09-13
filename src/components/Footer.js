@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="flex justify-between mt-5 w-3/5">
           {footerLinks.map((item, index) => (
             <div key={index}>
-              <h4 className=" text-secondary text-lg font-medium">
+              <h4 className=" text-secondary text-xl font-medium">
                 {item.title}
               </h4>
               {item.options.map((option, index) => (
@@ -60,7 +60,7 @@ const Footer = () => {
           ))}
         </div>
         <div className="ms-5 mt-5">
-          <h4 className=" text-secondary text-lg font-medium">Contact</h4>
+          <h4 className=" text-secondary text-xl font-medium">Contact</h4>
           <div>
             {contact.map((item) => (
               <div className="flex items-center gap-2 mt-4">
@@ -110,7 +110,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <span className=" absolute bottom-0 left-1/2 text-secondary transform -translate-x-1/2">
+      <span className=" absolute bottom-0 left-1/2 py-2 text-secondary transform -translate-x-1/2">
         ©️All Rights Reserved 2023
       </span>
     </section>
