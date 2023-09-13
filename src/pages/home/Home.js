@@ -7,7 +7,6 @@ import ClientReviews from "../../components/home/ClientReviews";
 import Description from "../../components/home/Description";
 import LatestNews from "../../components/home/LatestNews";
 import Pictures from "../../components/home/Pictures";
-import "./home.css";
 import OfferCard from "../../components/home/OfferCard";
 
 const Home = () => {

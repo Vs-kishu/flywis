@@ -9,8 +9,9 @@ import Navbar from "./components/home/Navbar";
 import TopHeader from "./components/home/TopHeader";
 import Home from "./pages/home/Home";
 import Footer from "./components/Footer";
-import LogIn from "./components/LogIn";
-import SignUp from "./components/SignUp";
+import LogIn from "./components/auth/LogIn";
+import SignUp from "./components/auth/SignUp";
+import Contact from "./components/Contact";
 
 const appRouter = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const appRouter = createBrowserRouter([
       {
         path: "signup",
         element: <SignUp />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
   },
