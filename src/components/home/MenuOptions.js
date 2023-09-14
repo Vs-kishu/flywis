@@ -8,7 +8,7 @@ const MenuOptions = () => {
         <Link>HOME</Link>
         <Link>SHOP</Link>
         <Link>SERVICES</Link>
-        <Link>GALLERY</Link>
+        <Link to={"gallery"}>GALLERY</Link>
         <Link>PAYMENT PLANS</Link>
         <Link to={"contact"}>CONTACT</Link>
         <Link to={"aboutus"}>ABOUT US</Link>

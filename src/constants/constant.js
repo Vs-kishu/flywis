@@ -159,6 +159,33 @@ const PLATINUM_MEDAL =
   "https://s3-alpha-sig.figma.com/img/d30a/0549/06b85b99ec2b0e06f10f91a2b73bedfb?Expires=1695600000&Signature=hT3zjiRGN93EtmL5THGK8IwZOBac~eqYfbUTaMeFIq0C2QdtDh~yoE4rJ8IBM4KMiBmNP1hNGFfk379iJivNAYppXIrXOpGsybJGp064Pvi-QYPDB7fkgZU2RW-q0W~2P6Fs8p5soUd6KonZM4a9-P~2XdmZW81aVA-lFkCaI4cguhQpd2ewMxKxi5oqpT9b2BPWpVJMVbY~5nglyC4yqvC2rxejVcK4xDDJzFWDVXTR3DStoAbnwix87wzZS1Gd7aJOqyq89BGO1taKFNbzMXYYMtzm9DexK8XTjkl0tmx1pE3UpZmL1Dmyi1DVs5YPPv4lT6bSpVZIzhmoj3cuww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
 const DIAMOND_MEDAL =
   "https://s3-alpha-sig.figma.com/img/5206/5754/1695581fd19adf8ecfe70a0b621592b8?Expires=1695600000&Signature=DmbUVREkIPpH5QqpOgSlcKB57uQ7RuL0iCXDTIV-e0nrDqpFZYfLV5Vtp98ywTA0IkYreB9jOSrl-ecoaCZzCLR5YvJePjYp5Q~c7NyxNGPU5JevWERyZ8t-v46mxycHRlgXNHn7cHyt4RCPMZG3Kp0bc9NYgPhnGQv~aehalm9PgS4no3NUD19mmq77E9XXBRe2nM9VH6GfqwrYPyWaImsGq-42ipsTmp5AG1nekdC9xN7eBD2y5L9~P7NniXqw49rhNxib-oCReF0d9OSOZjTWUNcXdY21fCVHFZuzPuG0sd1Rv2z6dYx9Ovfs4pSFplWLpLvhr-KgfIYEBRhGwg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+
+const galleryImages = [
+  {
+    src: "https://s3-alpha-sig.figma.com/img/a25a/a5f5/22c3cf673bf2f6ff4126eb30c3240dda?Expires=1695600000&Signature=GLQ9cIMyuVR~PzbX7vmIsRwQHNXb0M~C~-Qn5IINTBOi0wY6iXnR6bH1ezRUsQf3E8hqiSTULP274k6J1eLFdTjXa00VlJI-5iLFz3xjN22a-jDDpsvMZyzFuaDxTcTijpMwiN0MSt2G1bOdEPrt4rrtPor5Di~ED0IikOxGuhd2GibGUqGcLOTaVe18o7lYUCUtuWVjwDpfViigkVagONB2jouOPZszp7pv6lYuDIhcW0LNk1xnHxw-LGir-8WnVgWl9CDAFdPzeRkMNwMj4vSRMOcRb~h0J6JXd0LSEggZFIxYmvXQCydFGFGixHPDW0fp2GOASB~9NZuJKPTMUw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Microneedling",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/7df6/8aca/cbcc438e39909a1787036442e14812b0?Expires=1695600000&Signature=Yx4BYybV1L75PKq2kejLP~0W3uj9JP6sjeXClgwsrzmf9v-tajeyNo8JkHdcIfbLWikqITQik38DGaZ4iWO3Ot-1DFhanRPtknvbE6hqd3OTEV9-pUIZ4ahCjqUjJt9tW1k2uf~eelYu72pQHN94591iU-4hhFgYnWo~i0X4FJ7w8wnBQXpQyLb-ZZnB~g8mtSNiE-XEJpiCp8uHHzhHBNQZIyTlQj5WSNwQ5K7GadW5QqpBd02m-0aTcXcFa1XiHjbVj-XFr4iFT6ttfdnFETxL0TSnm-vr5A6zuBVKaxwwh2oZTqZvUEgWlkTxnUYfMyk3O-glMDHpi7btuaR2JA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Jet Facial Treatment",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/1e97/8e3b/4c32148303fff071df351690236b69c2?Expires=1695600000&Signature=CDmJjsiJZp84LWXvhYaTenW-1YCiodnElQ6MKoyP0rni853tC5Ny5rFG68KKoRK5Ft8v4yhG17JouLlNIPT4Jz8a3XaPxTn8GImDxMiIwvD9kvitDYyBoQlPlUb54Te6a4DmDP0er-TpuYiXwJawD01oKpI5oCFQVJKWGh8qGx4N-dKf317wipJJTL87j9zUyN4of-vtceXKL19NAfyZ-qIshV5uQqnqPF5c6ebl0GKH~GB5z0dVZ~42O9mlTvHUHs4yDGvwgo7RSpxo8LATrsXJXXhF3MDcxX9eibUY2f3zPfclJjMtvYD4Uwm1I~lMiMzGF8OTUYFCCROY1Buhvw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Cosmelan Treatment",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/66f8/4d14/301f45c11f07a57c02c725eeb70f0707?Expires=1695600000&Signature=PAlb-LIGhnyzPR~nP7pTh85JPAX3cjVjzm5iDwq3GoGJxNFAvcBugod7tTgcJyeXpxsZycwKKdXC43ga6WB3x0cogzU7qjp-wJvzfwDjHuftkMLueL3OKBc8GX6SunflWyiJNUdp9kPhUHwa4wY~32sMKRHeUYmUXwB~3VMGiC~nq1PTlF4ShQ6YcmXHjaHUsW3u7kG32dEAKtArc~gVyBlLhnDPrZ9C5vCoZ8IJOn6IpBVczgKg~tKb6PL6pTSwenkw13FLtK1aZo47fpsCsPtnrnBXE0Vc9lgzeoC2MCOQQibAvaryAYvcgKm4hAcSwX2drLN-rIv1cGnsx-E2DA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Microneedling",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/cac8/d71c/fe25002a9ed8cc49825e8ee289350281?Expires=1695600000&Signature=GAM4WmJeeXg~YNsppPQWyIP~JEClKyaGztbA6U0maNTShc8yFqxj~s5x6W3auKbfeAMChG8UbPwOqjQARBZgEx-nUyAKjJv3sys7v3JrNJKoB1kLH2APZ-iSj0-XTFrhrP5vg2VBhdENEJF7q6y51rIG4JTgD-681vDqt4y6x-zC~UY2S2hcRQBBkOWRi-OOFMkZ2Hx-Y6Fv4wit8LfD5UP54ntM9MZcHGExhr8J9R9bTUnV2qQ6~snyNbqIV227i59hXD7XVHnboWkzgSxr14zllmgUq4jjfblY-3HzQ7YNLSMGiM23hU0G74qTCuOU65HIVfyfFAURLzsZoatXMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Microneedling",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/8622/5b26/1ebcc6a3d73293132764cd2bdbada56c?Expires=1695600000&Signature=HxoLVgRG6gP1bvPS8RTs2BHryEFpDF0i0x8A9PRQ92jzCzGMOwhBsSNIOQpBtsq29lRrhK7fkDbhnBjBuS6L2ajhGg3LtCc7kTCzDYBb3N3IcW0pBLP17FQ67RrdlVdVGmPWt29eLEDvoGFiXPCjaUx~MQFfarQEu8ev--YQVIZSmoScWlWrxPecsfdpmbqhEz4k5KqCcweAdaIZ7x19b1SOhTSnRAPuqA01rFuVuT~F13lMFYu655IRTTlRvACz9jlss6gMN5snk0fVdaIR~uNEWVDlmszhGGtwHGXSU-s5Iw67UQUfcHlyka2kcMIq7OW-MGdSUrSa5BKbJ5-~~Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Cosmelan Treatment",
+  },
+];
 export {
   pictures,
   ServiceCardImages,
@@ -176,4 +203,5 @@ export {
   SILVER_MEDAL,
   PLATINUM_MEDAL,
   DIAMOND_MEDAL,
+  galleryImages,
 };

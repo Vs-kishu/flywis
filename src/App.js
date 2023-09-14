@@ -17,6 +17,7 @@ const LogIn = lazy(() => import("./components/auth/LogIn"));
 const Contact = lazy(() => import("./components/Contact"));
 const AboutUs = lazy(() => import("./components/AboutUs"));
 const Membership = lazy(() => import("./components/memebership/Membership"));
+const Gallery = lazy(() => import("./components/Gallery/Gallery"));
 
 const LazyComponent = (Component) => {
   console.log("here");
@@ -61,6 +62,10 @@ const appRouter = createBrowserRouter([
       {
         path: "membership",
         element: LazyComponent(<Membership />),
+      },
+      {
+        path: "gallery",
+        element: LazyComponent(<Gallery />),
       },
     ],
   },
