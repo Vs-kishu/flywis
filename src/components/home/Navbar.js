@@ -30,12 +30,13 @@ const Navbar = () => {
               <span>LOGIN</span>
             </Link>
           </div>
-
-          <img
-            className="w-14 h-14"
-            src="/asessts/navbar/crown.png"
-            alt="crown"
-          />
+          <Link to={"membership"}>
+            <img
+              className="w-14 h-14"
+              src="/asessts/navbar/crown.png"
+              alt="crown"
+            />
+          </Link>
         </div>
       </header>
       <div

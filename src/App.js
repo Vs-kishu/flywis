@@ -9,11 +9,29 @@ import Navbar from "./components/home/Navbar";
 import TopHeader from "./components/home/TopHeader";
 import Home from "./pages/home/Home";
 import Footer from "./components/Footer";
-import LogIn from "./components/auth/LogIn";
 import SignUp from "./components/auth/SignUp";
-import Contact from "./components/Contact";
-import AboutUs from "./components/AboutUs";
 import MenuOptions from "./components/home/MenuOptions";
+import { lazy, Suspense } from "react";
+
+const LogIn = lazy(() => import("./components/auth/LogIn"));
+const Contact = lazy(() => import("./components/Contact"));
+const AboutUs = lazy(() => import("./components/AboutUs"));
+const Membership = lazy(() => import("./components/memebership/Membership"));
+
+const LazyComponent = (Component) => {
+  console.log("here");
+  return (
+    <Suspense
+      fallback={
+        <div>
+          <h1 className="text-8xl">loading</h1>
+        </div>
+      }
+    >
+      {Component}
+    </Suspense>
+  );
+};
 
 const appRouter = createBrowserRouter([
   {
@@ -26,19 +44,23 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "login",
-        element: <LogIn />,
+        element: LazyComponent(<LogIn />),
       },
       {
         path: "signup",
-        element: <SignUp />,
+        element: LazyComponent(<SignUp />),
       },
       {
         path: "contact",
-        element: <Contact />,
+        element: LazyComponent(<Contact />),
       },
       {
         path: "aboutus",
-        element: <AboutUs />,
+        element: LazyComponent(<AboutUs />),
+      },
+      {
+        path: "membership",
+        element: LazyComponent(<Membership />),
       },
     ],
   },

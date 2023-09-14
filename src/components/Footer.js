@@ -51,19 +51,22 @@ const Footer = () => {
               <h4 className=" text-secondary text-xl font-medium">
                 {item.title}
               </h4>
-              {item.options.map((option, index) => (
-                <ul className="list-none mt-4">
-                  <li className="text-left text-sm  font-medium">{`>${option}`}</li>
-                </ul>
-              ))}
+              <ul className="list-none mt-4">
+                {item.options.map((option, index) => (
+                  <li
+                    key={index}
+                    className="text-left text-sm  font-medium"
+                  >{`>${option}`}</li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
         <div className="ms-5 mt-5">
           <h4 className=" text-secondary text-xl font-medium">Contact</h4>
           <div>
-            {contact.map((item) => (
-              <div className="flex items-center gap-2 mt-4">
+            {contact.map((item, index) => (
+              <div key={index} className="flex items-center gap-2 mt-4">
                 <div className="w-6 h-6">
                   <img className="" src={item.src} alt="contact" />
                 </div>

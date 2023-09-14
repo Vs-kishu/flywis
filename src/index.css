@@ -20,4 +20,14 @@
     }
   
 }
-
+.silver{
+  background: linear-gradient(113deg, #B5B7BB -3.09%, rgba(216, 216, 216, 0.30) 100%);
+}
+.gold {
+background: linear-gradient(113deg, #B8860B -3.09%, #ECBD00 100%);}
+.platinum{
+  background: linear-gradient(113deg, #61605E -3.09%, #494846 -3.08%, #939290 100%);
+}
+.diamond{
+  background: linear-gradient(113deg, #437FF9 -3.09%, #4AA5F8 -3.08%, #6DCEFC 100%);
+}

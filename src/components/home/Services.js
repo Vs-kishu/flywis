@@ -10,7 +10,7 @@ const Services = () => {
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 px-10">
         {ServiceCardImages.map((card, index) => (
-          <ServiceCard src={card.src} service={card.service} />
+          <ServiceCard key={index} src={card.src} service={card.service} />
         ))}
       </div>
     </section>

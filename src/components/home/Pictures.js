@@ -5,8 +5,8 @@ const Pictures = () => {
   return (
     <div className="w-full">
       <div className="flex overflow-x-scroll no-scrollbar ">
-        {pictures.map((picture) => (
-          <img className="w-72" src={picture} alt="" />
+        {pictures.map((picture, index) => (
+          <img key={index} className="w-72" src={picture} alt="" />
         ))}
       </div>
     </div>
