@@ -7,7 +7,7 @@ const MenuOptions = () => {
       <ul className="flex justify-evenly">
         <Link>HOME</Link>
         <Link>SHOP</Link>
-        <Link>SERVICES</Link>
+        <Link to={"services"}>SERVICES</Link>
         <Link to={"gallery"}>GALLERY</Link>
         <Link>PAYMENT PLANS</Link>
         <Link to={"contact"}>CONTACT</Link>
