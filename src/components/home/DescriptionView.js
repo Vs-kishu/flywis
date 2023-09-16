@@ -20,8 +20,8 @@ const DescriptionView = ({
         >
           <div className="grid grid-cols-2 h-full p-8">
             {partners.map((src, index) => (
-              <div className="flex justify-center items-center" key={index}>
-                <img src={src} alt="partner" className="w-2/3" />
+              <div className=" grid  grid-cols-2 gap-5" key={index}>
+                <img src={src} alt="partner" className="" />
               </div>
             ))}
           </div>

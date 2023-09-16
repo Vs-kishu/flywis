@@ -36,8 +36,12 @@ const Footer = () => {
           <span className="text-lg font-medium">WE ACCEPT</span>
           <div className="flex gap-2">
             {paymentCards.map((src, index) => (
-              <div key={index}>
-                <img src={src} alt="card" />
+              <div key={index} className="w-20 h-12 my-2">
+                <img
+                  className="w-full h-full object-cover"
+                  src={src}
+                  alt="card"
+                />
               </div>
             ))}
           </div>
@@ -51,11 +55,11 @@ const Footer = () => {
               <h4 className=" text-secondary text-xl font-medium">
                 {item.title}
               </h4>
-              <ul className="list-none mt-4">
+              <ul className="list-none mt-4 flex flex-col gap-4">
                 {item.options.map((option, index) => (
                   <li
                     key={index}
-                    className="text-left text-sm  font-medium"
+                    className="text-left text-sm cursor-pointer"
                   >{`>${option}`}</li>
                 ))}
               </ul>

@@ -41,85 +41,74 @@ const OFFER_IMG =
   "https://s3-alpha-sig.figma.com/img/e1a2/93bc/fc06329d69926d35461101cc1a257b0a?Expires=1695600000&Signature=Zd1GnxZ4P7DbJMXPiYnXkl-WL7UcBCs2V0frn4BJyjmYr7vqiDwDquX1muN~im8fwC-m4ENof8rvG9uIyUusTLacprn06p2sHRPBKiVybzqO3RfEoj7jYz4OcE3LvUDqN0i5a~CMDrMxNWMEaWXSwqY9bwCiR0e0CwVHBuhE4DjO7D73ckTw26zB518KEb~8I2r6YsoaE4ZAgTQl0ezKHCJScDa-mPWYmNSLdvDYEPlfDnBTWqEkfHuJqt6Bqmvhsu9ZXNi-0ft2dcCHpElgwRgm16pnzoC~3tqAFwODGGfCth36yOnQWsZUvBJbvJ9g1jlba6NOdpQ-PveyR7BJtA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
 
 const partners = [
-  "asessts/description/partner (1).png",
-  "asessts/description/partner (2).png",
-  "asessts/description/partner (3).png",
-  "asessts/description/partner (4).png",
-  "asessts/description/partner (5).png",
-  "asessts/description/partner (6).png",
-  "asessts/description/partner (7).png",
-  "asessts/description/partner (8).png",
+  "https://s3-alpha-sig.figma.com/img/29d8/6c80/1ab96a64a96367a7c827e6f78d5919de?Expires=1695600000&Signature=S8bTOUcuNfkNmq2dyr1r~HtHWT5J5MtP3nJIGfzTEZ9zn8VmNtpN~~dYtUUubEOnHaRNFLD9hrbJaHhQwFwDjBOcSPQhhOS1NkE2VHVcXAm7iMCkHzGPmaMEMGF~KxYmV-6ngeX4y76cbk5-MYVBQKhRLHkUegCTwjumbQNv1CKqzVx9ARJz0V91VMax3ZfAhdGUgRA6O7cY~YRoinZa5xZMwQ2AMc3MlJOtCn1hFCdKWKyVbZ-pzrm7BHABLpK~RE3KKJWr5ffOmxKORgNEMdSmo65CGKlOHLw5RRZYJleJ-vfr367Pt--pd2DF9kDBJZF1Zp8f4xm6h3itIlR3XA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/16de/64fd/fbc675c266f288c1b24d4582017658b3?Expires=1695600000&Signature=AjKgGrpiQMb2RSIQyYbGlCRFLcQvJ5NtAkR-T4FywhraPIQyXS9qawfzjSftca~g2zXKH8cTOxlYIik1aj7uTXtxwt8RLPeJ3ZZjWX2D3ApBkpQtBOYUetCShfn4emWydU~FB5hS6EYGgu7DQzLZ2aX0LZN7HekV~fGsHv~u9THBwAgHYa2FNuIXhpM~a66r5G4nzecqUp5XwB5JDP7vV9KYvdRmdMk6B3-0nR-w0e9aRlHwhjiFmW0ZKk4Z6l14ThTQrF64yNjXRmIDmf1gq3O5OmAEQ~cfZNFO4ur-XR3V9~IPktcH023GnFpa-ijrNr9Ga0UXbcR~xlTlbZELzg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/9fc1/eba4/74c8e57d3edaf0cedf66ce4efae37e5a?Expires=1695600000&Signature=Z6lT4syo~lhwsFOKJtGzCfPvXKyT~wYkY47lgo6xuqPeIORlFePUo5pA7QGHo0ihbJPjd9tlWg610bbJSRbgrJZHiIgLdEoifqoUiIq5bh6zE3qn13Rh366nMcEpC86ubV6L0qH0Pr8CCK~bYszy0AQVcej2ahwUwpNhcct4NWCWlkSt7AfpIxVpj8bGX~7iVwVeljUzw6vYHDLJwrb9rtOmU7BpAjQtX97SzhS9cfqRifnoc7fjPloSXlxWDauV7vMt1aDzyGrVIE~v0q5m5PteZblZ5oBrRmNdQ~7427JPRajD6sBplMGg8xW8UCJqCwtWYurq~WpMuN28LTc1xQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/faca/179b/91e87643214d7bcf192d83846f92b156?Expires=1695600000&Signature=UbiTrDDjxHJlNdLFBMFpXegLbHvFq9k-Zp8lWGegslosSPyjzMtcM7btc-rFRGN7atGhp4AlInwQNPVXnUdojUDRRjg6aUISNclq0WB-U5jewde5MHDU8q6TTMGuH-Da9ZIUuhawzNUH~~BYwzoEHkxxvPZWT~Yw7pRxSshPY9pnTf-F37iBbfwOkyDAn~9YWWGdyHkGQPtiL7POqtFcPF8QFzgL8N384lTZzIzzwSiRVia6t2f051rSeYlRaMX8VSDeda4U7u50URCxH4ZSmv2TGaOt8~eOcxrbJR-2wTgUjpdqn52Lyj5dQiio781g4Ss~S1GrjrpdOBJhv~ozwQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/5d06/760e/d5bad843bfdfe4e52a4da7c77bd9d40d?Expires=1695600000&Signature=H~e6don4u1Yjzif7IoSZ8WC7lypJqkf99NNyqDgRU6~v3J-4gICC1zjnMaYeje0VB4odveMqZNkAo~Qh1G1Ct0mjhp3m1Qb8jqxadBch3xyRLtpzCmRSBu5auOSk~R9cX86d8aSNuyBQTG8S16NPmQrggfSTlhBKn60BLBN0ukPgYC6qL8NrYMO~p9AoALwUUkLVaO1y1~orHgsbNt6wWlLibWnI0FNy3ijqUkXFeuk7~riihlwPOolw4uUFaKDPxaQwmcs-6l5FTWL7iPoi0WxnHMKUmkvl~0TehZcFTnEk~Sae-kTl-q4i9k-BlhPS5v~vFYNVPT~xuKb17bLcEw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/9409/24ee/1a9776f86534125d03b103171428150b?Expires=1695600000&Signature=JnCzVDn0tmjAE5yDcVgj4wlWZJgvX5DpAGF29Qyxi3DMzBEKCgKxojyMCQkiZRXEMQFY2GTaOdH8JQp39W3K1wPE86iwJcMlrETqISDjbn6F43wYIGKib2cJR5QLrYjCNtndo-4RM6Fh3d25xjWHMIP6B1AwNzB6SEY6OwaZbB4JIFKuE1kmyNDpUpMTM-36jKI9zaf7l~7ddRuIs62buzvzyVm5kqgcoJkVdkLZBZEjGx2BE3WV4vMRfxV5NlG~1X881Rit~0XYbCQzvTKxu6hcsBtVagfQDdJ9aC83frLdKwadGNAiP4Xois6R8aLEGCGYK3jWVQv~wNYBmiWgAw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/1f5a/fa56/1b26d364ef832ded93d5cf4bae4247fd?Expires=1695600000&Signature=ZYlu~uiZB408TdZbhjl7a2VKXJiggs-v~Ydw5bll2crh1A5f9YSq~1XfGaxwUvrG4VXXk45aYKg0nxbe7NSkh37ODuJiEqHQzaNHd8eCQpTZ~WpghfEpdGDGjMQjNBnVG54wdapaokyl0V7XBa1kvvDAGkeYXYKOqXOMRTH2lknC636VNAPQwqlMZn7EmbmlIJV7TIT082Ned98JN7ZkV7lpLfqShxKuYuAbJLCk7j~v5ebflM9gy4YnBF46dxXB8-aywi14YCDPHwKMhcGafd51nDYos6PU-dcL~9bKTYGjJUKaMCaO4AL94f1kwTWJ3pGfeAMwZJQSKfN3E7~dSQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/f8d0/e2e8/dd18a52817cf64e6575093ba1df34943?Expires=1695600000&Signature=cOCRWIbxVXXRw78a3Pf~BaApsCg4JM47KmFkmhkon1few45zVT~tkLgffDC2Avkld8lzeXPQEn-vIZo0SLDnedw2Yu3vdmMdRd4JD50Vcl1i3j-x6djsfQLYDffnBJYDtcCVK5VEpe3dVelcpFzMa65X6pJM9zTpHw~OaicwletJkccse~Vk-sE-vutqMkWrNuOEHuzFMaKLY7AtLylTFE2aIX5i2cd6ZFCZz5TuYjbxtgal7CLdrMNslviYIBaSyOItZyDbjCoxe6JUlFjclQo92OtOXHlXaSDQYv9YFSTto~ZES551bb3s7PdN4HPs~bWj6MgAsUsWxE7uUFhLwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/66b1/f7a1/bbe662cac1b9f1e544cad0c85f7a7e3e?Expires=1695600000&Signature=pEcFt96JRBxb3G3ODMMh~BsiUKyDvP19PEM3Zx6AoYte1d5VuFhJqtbn7pBuWP161Bs31mTE65vdMAC5FVOyd-zg62avh0hgsSvR2hBePZin59wfzMS5phQq5b3nhUM7CckG8bJrqtJUau~Efr931GPeb8egm6kCT41RK5HeUHbK8-JqiwvaiMaf3nNsVFWeC~pABR5a0Cec0A0KbFZiQJC70SXpQEIf6BDofwSuZMQxcL5TKTT43SUyxzzJ-EnFZs1oh~mDI8J2tdatoSzo760y~bnT8BujiMAnyk5U0xCQULw6AOSe7L6WNcFMpZeuFCZYVHLE1on49ZsQ6dYEIg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/3eea/d654/3bf764e23b6b185a161e1aa239c3c273?Expires=1695600000&Signature=ixCZEZbINupMHFBBPEc7W9133fIQjexbLRQBaqqf4gDmF8HFkDXvLXBODwJMUsrwVx4C~4~iSz3Dn5CNIwtbeAhJQBPJVVNuKxf9CstUVBRzbUNKaACeER0qk301GNZ0LIBlSvvCqxv1toXmDqPA5pVQlyh6dlgmSPK6BU62M93KldMbIGKW2meL0hJA-El8kA197r3FCIQ7ZAeTixIWb2Y5SDyCQH0abwWJlbxbfwBx1sZfP~js-70x5vH74LyUekOMVJPy9njuDUkCNQgMKTIXQCdF9zbb-mRAcC8TC27VTFUY6DMxJXfkgGq-CAX~eYVARG7ILOkNc8zXzc7L~Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 ];
 
 const latestNews = [
   {
-    src: "/asessts/latestnews/news (1).png",
-    title: "lorem Ipsum",
+    src: "https://s3-alpha-sig.figma.com/img/3c46/2883/d5d30d58bd93eca65474feedc16054da?Expires=1695600000&Signature=jIq2hAvOAY0w5TDVbw2XKx8fiCOM9WwOWQO3A9zPq092EobGjNFrx~sFzFo84KCyLzhhDXRHxWP3gtOjptr9MCXgBH-jlHgJuFe~FUQJms4eW4lXhHE4IhzFO26Q--yVFlGl2CEdPyGr~OZi12rZMQTtk7WAUNSymlz9OqC65biKCoclysgMxGIDSg3pnmomnmZR-9wsYGr9BGnmTeULSQWrhlO2GEK2nepj5SLJMJjtf~LJB3~SvI80SKY9kVD5ejif1PxLc3O~EHD-7NROn9w2YwAP8yX1m9DWMNIFXgrIpkezD7ZGCaVyPMXtRwHT0C7Z~w-zSMaO5tfTt1t9HQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    title: "Lorem Ipsum",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
   },
   {
-    src: "/asessts/latestnews/news (2).png",
-    title: "lorem Ipsum",
+    src: "https://s3-alpha-sig.figma.com/img/e871/9058/5ff7f219b9fcf1eac085a7dcdc690073?Expires=1695600000&Signature=O5E4lXAPtEjgJ4rKBZtppACVypRMWq~lazW9FULTK1EKaTp7TKbkgvIq6QzhjMn0OMTEGIfM1Y~zJcjQMa4Jnyq4CZ4vtxGmhkYGxWB~aekJThg-KFGIsc2t2mt1UD~DvSyrDOTt-ZP~Gp8KI-4k8XoZx3SMlRC1CQZVg9LCx0ecYKELA7ZPQEk2Z8w9dPryaKVqjEpQijmIIGq0J8q8rHmnwImrImp-lm7Hswe5HAuv70pxNpiUoI4nf-EJI-Zlg5qmJ4E0f8CZMQlrbEzVQ-d3EBvw8uf3FJ2Re1I0s775GjTPJjOyfIc5ZyE-4Aq4l3u~0W17A2Vaj34sV9QLvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    title: "Lorem Ipsum",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
   },
   {
-    src: "/asessts/latestnews/news (3).png",
-    title: "lorem Ipsum",
+    src: "https://s3-alpha-sig.figma.com/img/6b61/ebe6/3d06888ee2f470727473f233176bcb20?Expires=1695600000&Signature=Hfn9bbDvBn4UInl4K9vHbPO7PeW0q~OTgHi1mVHtT4Mav2On~axvjzae~dNOonJPsfnZC6SEF2lsy-aHrQ~Ucn1ua8XyFfqjTClCpOGczDw-yDX5ZP1YcUzQF604loEzG5xl9r3zODRtHUu2fVX3YG5sLF8qo29gO08jz30pq-9hyBBTrsvG4VgkENoQ0kBCZe3W05mywXpMOHcRRnACv7z6ISK68A0-cicc69rcMq87nBnppTqjGwA5GSBDe66io7BtoAFuFH60B0off8FRIEd7jADg4V61lVeQZYh7vNwF4dEhJgF3rSczZxHdhQq2atvI-CD7HS7jhkuJvPZVmw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    title: "Lorem Ipsum",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
   },
   {
-    src: "/asessts/latestnews/news (1).png",
-    title: "lorem Ipsum",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
-  },
-
-  {
-    src: "/asessts/latestnews/news (2).png",
-    title: "lorem Ipsum",
+    src: "https://s3-alpha-sig.figma.com/img/3c46/2883/d5d30d58bd93eca65474feedc16054da?Expires=1695600000&Signature=jIq2hAvOAY0w5TDVbw2XKx8fiCOM9WwOWQO3A9zPq092EobGjNFrx~sFzFo84KCyLzhhDXRHxWP3gtOjptr9MCXgBH-jlHgJuFe~FUQJms4eW4lXhHE4IhzFO26Q--yVFlGl2CEdPyGr~OZi12rZMQTtk7WAUNSymlz9OqC65biKCoclysgMxGIDSg3pnmomnmZR-9wsYGr9BGnmTeULSQWrhlO2GEK2nepj5SLJMJjtf~LJB3~SvI80SKY9kVD5ejif1PxLc3O~EHD-7NROn9w2YwAP8yX1m9DWMNIFXgrIpkezD7ZGCaVyPMXtRwHT0C7Z~w-zSMaO5tfTt1t9HQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    title: "Lorem Ipsum",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
   },
   {
-    src: "/asessts/latestnews/news (3).png",
-    title: "lorem Ipsum",
+    src: "https://s3-alpha-sig.figma.com/img/e871/9058/5ff7f219b9fcf1eac085a7dcdc690073?Expires=1695600000&Signature=O5E4lXAPtEjgJ4rKBZtppACVypRMWq~lazW9FULTK1EKaTp7TKbkgvIq6QzhjMn0OMTEGIfM1Y~zJcjQMa4Jnyq4CZ4vtxGmhkYGxWB~aekJThg-KFGIsc2t2mt1UD~DvSyrDOTt-ZP~Gp8KI-4k8XoZx3SMlRC1CQZVg9LCx0ecYKELA7ZPQEk2Z8w9dPryaKVqjEpQijmIIGq0J8q8rHmnwImrImp-lm7Hswe5HAuv70pxNpiUoI4nf-EJI-Zlg5qmJ4E0f8CZMQlrbEzVQ-d3EBvw8uf3FJ2Re1I0s775GjTPJjOyfIc5ZyE-4Aq4l3u~0W17A2Vaj34sV9QLvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    title: "Lorem Ipsum",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
   },
   {
-    src: "/asessts/latestnews/news (3).png",
-    title: "lorem Ipsum",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
-  },
-  {
-    src: "/asessts/latestnews/news (1).png",
-    title: "lorem Ipsum",
+    src: "https://s3-alpha-sig.figma.com/img/6b61/ebe6/3d06888ee2f470727473f233176bcb20?Expires=1695600000&Signature=Hfn9bbDvBn4UInl4K9vHbPO7PeW0q~OTgHi1mVHtT4Mav2On~axvjzae~dNOonJPsfnZC6SEF2lsy-aHrQ~Ucn1ua8XyFfqjTClCpOGczDw-yDX5ZP1YcUzQF604loEzG5xl9r3zODRtHUu2fVX3YG5sLF8qo29gO08jz30pq-9hyBBTrsvG4VgkENoQ0kBCZe3W05mywXpMOHcRRnACv7z6ISK68A0-cicc69rcMq87nBnppTqjGwA5GSBDe66io7BtoAFuFH60B0off8FRIEd7jADg4V61lVeQZYh7vNwF4dEhJgF3rSczZxHdhQq2atvI-CD7HS7jhkuJvPZVmw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    title: "Lorem Ipsum",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus viverra nibh, nec laoreet nisi maximus porta. Integer vel laoreet libero, quis varius nisi. Cras leo erat, cursus sed fewrw",
   },
 ];
 
 const pictures = [
-  "/asessts/pictures/pic (1).png",
-  "/asessts/pictures/pic (2).png",
-  "/asessts/pictures/pic (3).png",
-  "/asessts/pictures/pic (4).png",
-  "/asessts/pictures/pic (5).png",
-  "/asessts/pictures/pic (2).png",
-  "/asessts/pictures/pic (3).png",
-  "/asessts/pictures/pic (4).png",
-  "/asessts/pictures/pic (5).png",
+  "https://s3-alpha-sig.figma.com/img/cefb/252c/c6ff445f8ab83dbc1e38bd4cd28c7295?Expires=1695600000&Signature=cQrNGRwD3ikfl-TacnIuCDvYYsKNQDudYa2yRt5G~agOpc4ArhBlwgoHZCX2cfu8DNG22wr3duVdhnAaoEmO72cgUfPQ7LCQxmJc71S23HDdv-CNKVf-GRsUILbAnH5L-ZuiTr7z2U4IrYwcKcbmc-mjzr8cN8VUdCGot2vbpeEkb0cMZDnBDTMe-OjEZaaVemuo~9t5Ai-MZlNXvS-8pxNWAFLYs0z4yZvCbbM-F3o3dprzvCoA4mib97GQBjUrRGVM5562xKcO3RRrI-ivgjeExvP99cI-V8-PNOqRpBMS-6sw7xzglQQX7slCgdfsSZAE55uDe5rv22ija0qOmQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/4208/ade2/b850b705f32e673c3f8153f791b59430?Expires=1695600000&Signature=E-Qh1LDPz1A5Dg15U8pnmrpdiKWUtgKB3elh8LJ7aILgQC3NzJR8SyzI6tQmvesG8bsbej7sz5Gw-DnQlQ67QyjIy2V3KWALV-3fqTpq5dB86l7jMJv7fNeyndGHBwE2XeGwsZPx8P9NLHX9ogH~VksmS-j1nGYQhW4AMaBK3aiKypPPKC8v-chAAov2C1Gwedusk~CaGOV9jUWvYFctqrnHIcwSoHAAWnc5O40ljnM2XglRnrJXYInnSsLEZgvMXxgsKQEZ7qzSAB-2Nq2TlPlBJz1U5m1WpP04Vomi6p85Wi2S1s2D3SXamZEcV1D3u0uC8AMTCCCsUl5TM-dA4Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/e738/757c/9b48fec2cb21e6c62ec950544b2ce26c?Expires=1695600000&Signature=q-MvLWQGUbAI6m6lAyjqAh51mNdKVO1pPrdjTWoWOm7V3bQlJzCg5jYp3D3b~yagXnrrKddcbWywAwq5QGEjT2EIm9rxx35PyekbAGFPQaewD56sCKk49fJqz4gu3wMGlYSC14gM3CYh82hCzk3AQdmwfhTLerKotDLUAvRoVYzkG5m-KQ0hWmu5L1OtdFcAdvABNDjFQ3wd1cX2F66gG09eFPEclIeBi36WJblyRahYtRjdSIsev7Jm9kxczhYV7O6ye~AjD0~IWoE2BFk546HG~dOibMfO67RLJOYeBTlG6qFGdOdDlSnxJR1Ery~sP3zsJaPjIIx~rRQuSZT66Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/d704/df32/c3cd07712387413c1e6cdf36362d2934?Expires=1695600000&Signature=Q0wDErBt8rXGAzc10hrWKE0kDXBzi1Sjujxw2PHj1h0Hzx6Va17SDyvP1P3ecv6JMM8Tlusi286YKKctQX-HXjYxPgCWbe7sMn60~QPVmds-Xk3MfbAJ79JPPen~XxaVv~HWiC8hJSD~g~xV4x-89p7eFIzm0Ro4NvStfHaVXgcuePiZLSN4jgdfhV9e5uZgN~fH3BBTzWExuiBc2SGGFQza2XdDc8ArqET9OSqdSTLevq-FASq8Jo-drfRoLLTvQc-bcCJU~IdXWVouzHBx-rbbyhXALnoh7a1wctXCSXSYNb1u9zlkBKGBHoB65mSz4sF9O0xR1LM~2SwBYmDyxw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/cefb/252c/c6ff445f8ab83dbc1e38bd4cd28c7295?Expires=1695600000&Signature=cQrNGRwD3ikfl-TacnIuCDvYYsKNQDudYa2yRt5G~agOpc4ArhBlwgoHZCX2cfu8DNG22wr3duVdhnAaoEmO72cgUfPQ7LCQxmJc71S23HDdv-CNKVf-GRsUILbAnH5L-ZuiTr7z2U4IrYwcKcbmc-mjzr8cN8VUdCGot2vbpeEkb0cMZDnBDTMe-OjEZaaVemuo~9t5Ai-MZlNXvS-8pxNWAFLYs0z4yZvCbbM-F3o3dprzvCoA4mib97GQBjUrRGVM5562xKcO3RRrI-ivgjeExvP99cI-V8-PNOqRpBMS-6sw7xzglQQX7slCgdfsSZAE55uDe5rv22ija0qOmQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/4208/ade2/b850b705f32e673c3f8153f791b59430?Expires=1695600000&Signature=E-Qh1LDPz1A5Dg15U8pnmrpdiKWUtgKB3elh8LJ7aILgQC3NzJR8SyzI6tQmvesG8bsbej7sz5Gw-DnQlQ67QyjIy2V3KWALV-3fqTpq5dB86l7jMJv7fNeyndGHBwE2XeGwsZPx8P9NLHX9ogH~VksmS-j1nGYQhW4AMaBK3aiKypPPKC8v-chAAov2C1Gwedusk~CaGOV9jUWvYFctqrnHIcwSoHAAWnc5O40ljnM2XglRnrJXYInnSsLEZgvMXxgsKQEZ7qzSAB-2Nq2TlPlBJz1U5m1WpP04Vomi6p85Wi2S1s2D3SXamZEcV1D3u0uC8AMTCCCsUl5TM-dA4Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/e738/757c/9b48fec2cb21e6c62ec950544b2ce26c?Expires=1695600000&Signature=q-MvLWQGUbAI6m6lAyjqAh51mNdKVO1pPrdjTWoWOm7V3bQlJzCg5jYp3D3b~yagXnrrKddcbWywAwq5QGEjT2EIm9rxx35PyekbAGFPQaewD56sCKk49fJqz4gu3wMGlYSC14gM3CYh82hCzk3AQdmwfhTLerKotDLUAvRoVYzkG5m-KQ0hWmu5L1OtdFcAdvABNDjFQ3wd1cX2F66gG09eFPEclIeBi36WJblyRahYtRjdSIsev7Jm9kxczhYV7O6ye~AjD0~IWoE2BFk546HG~dOibMfO67RLJOYeBTlG6qFGdOdDlSnxJR1Ery~sP3zsJaPjIIx~rRQuSZT66Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/d704/df32/c3cd07712387413c1e6cdf36362d2934?Expires=1695600000&Signature=Q0wDErBt8rXGAzc10hrWKE0kDXBzi1Sjujxw2PHj1h0Hzx6Va17SDyvP1P3ecv6JMM8Tlusi286YKKctQX-HXjYxPgCWbe7sMn60~QPVmds-Xk3MfbAJ79JPPen~XxaVv~HWiC8hJSD~g~xV4x-89p7eFIzm0Ro4NvStfHaVXgcuePiZLSN4jgdfhV9e5uZgN~fH3BBTzWExuiBc2SGGFQza2XdDc8ArqET9OSqdSTLevq-FASq8Jo-drfRoLLTvQc-bcCJU~IdXWVouzHBx-rbbyhXALnoh7a1wctXCSXSYNb1u9zlkBKGBHoB65mSz4sF9O0xR1LM~2SwBYmDyxw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 ];
 
 const paymentCards = [
-  "/asessts/footer/card (1).png",
-  "/asessts/footer/card (2).png",
-  "/asessts/footer/card (3).png",
-  "/asessts/footer/card (4).png",
+  "https://s3-alpha-sig.figma.com/img/dca9/9f94/8e5578b7ddb396a7a9904728cff839fd?Expires=1695600000&Signature=Lyud-Aqhe27h3jiSRlCJJVuxw9zUP59ejr6hW4zsRikkfIw7r1G0oiUl2iZTdABTE9QUsa6YxDnCa7k12bdSgOAhlONaaAmKo4jRYlO5cr6mEjyP~HUcmNATOAVaY5Cagr6FLI4QnaEoQrZI9zBuck6KqgUYx64fzZ4FZqE7miVr3F2dco1eyR5vMNLFIQh5~ewjbmLc5cAeRRoMMWNuFJCWOYr6ranxCHFpHcYj1CZb0cH9VIAQS5KBAVOTlGJOOzydHnXlw2wMuucqu4B07Z1bgO4QOZopQQXkBTe9TTBCN4YUrOw10Uqp95CXRWtVwwdRktbOVQo0nHKCYxCa0A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/8ce3/5781/c6fe0f3525c82aac0757ce7300414261?Expires=1695600000&Signature=qojMn2XDMMaygVjzwepuG0oFjOJrvQDS~4EWBeJfQG7MYy7NWX-KAt-Qxqdr5VOK1Z-1Z3fqe1UIUqlq2W6FMdaQAX4pmiD9GsE274de0ywkfj0Byir~EbwalXZw04Uish6J09chTq3cjasneRrNnF4Jryo1-DmWq-0Sf7qTVyEcWxE0cvw0qbBYi-3Pyc52JsW5qrvkqK66WoPY~z94DzLU5RwfyIBCwlZOn18A2p8tE00TlT0A9rB1lEKvxx2z6e8zm1aQX~9IkHcjtL0jjgvqRr~Anl3dJwWQHOm9CnTQfoF65YXcJXCbJktibDoCawf4SVgP-5M5AA7ygtFofA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/f558/9e28/02e05f3269fb3187765895bd3c2a3655?Expires=1695600000&Signature=ZIzXECAYMQO-MLRRv6HSgaS6gQX~uwpihVxDWrzIY9FCmhj22yaTXfQLgaIYuKnZ~zF6bm0QjxgntXTqatykjynS0UZaSf0z5zrJyubW7dmJihfS2svEploFSpQB6JcxzPjeb4pXsxetQSXgb~7PU9MhOuU9KvKx4spljNNJllrACOkqnshal-x-4W23gw6JXXYtXlqEfPa64FW9ZrzTX7Oj9AHL2hDWcZJUe3jgs1TsPHUDNR9btkU418KqnS7gYwdZXX8S5UdKiE5H5RzrBxPX9ulfQmWjAgLv-DNLk7TBdeqF8MeEz-eNbVa84bZXI1E3L2cp8gv28G3~g-JR4g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/5d79/9d37/01bf0be10ffc9e331bdab9ffa09487f8?Expires=1695600000&Signature=VwBT4mb~nsqoPvjT9yOfyArrsGnhfa94RpCeh8N1~iOHoKXRICKLyvQcniDJ20Cc8~z3w5USXQ370J2-N6k~K-QIVO-k1wOoRbPwruRMjO5B~VvRrXycU8KKAH~SFTF49mmof4YjBBl09yyboh9Fm8tBGJWy1q7fBofu6Zob788onFjgT5W0LCoTZYgVtTT3ulcCY7DTTvJ0-GaDg2ChEXUtNn0jBtfeZ3ekNA~XSTq8UXZX38oT0KMOJBUDHG5E7t9niT3JWtaxVyjprg~ubXkb19BR~0CagAMTY18A8xPmdYGtYgg9FyRI2PHue-CXb6Svce9cR3lUnM14EOKNXQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  "https://s3-alpha-sig.figma.com/img/969f/f0c0/8fbb7ddda7e7b8e0b94e755f27a32cab?Expires=1695600000&Signature=pl5UhUqOkSzrDpvIL9GgVy07BVRVeTHGv4~nyA7uQV-65SrIyAiI1KvuMmvmis~~y3CQrKX7pt6p9CQ8Zd78jKyxKu~xMsNxOBtO~SfyfDD96RMJxPxVh2~KiiL0gDYac2pUD7r-nKBjb8FfZpWdwaPJsr~tz71-XTPjZTr6TkkF0XbXkWSm1h2VQQZfq75Kx--l85haM0j9MNUZfciAqA3Ix-9B8xCUjz5kubs2Hk2wjvInM~dOUd3naVSIWpHf1P14K2HHDP-QrdP47k-GuE94tY691G~qfvlV5sY6BjnUSo7Z9QXC3r0o~c1j41Rfm8rce31fFhTG1ij8w5tncw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 ];
 const footerLinks = [
   {
@@ -152,7 +141,7 @@ const footerLinks = [
 ];
 const contact = [
   { src: "/asessts/footer/contact (1).png", mode: "+91 1234567890" },
-  { src: "/asessts/footer/contact (2).png", mode: "loremipsum@gmail.com" },
+  { src: "/asessts/footer/contact (2).png", mode: "Loremipsum@gmail.com" },
   {
     src: "/asessts/footer/contact (3).png",
     mode: "XYZ City, 6th Avenue, New Jersey",
@@ -161,7 +150,7 @@ const contact = [
 
 const contactPage = [
   { icon: <BsTelephoneFill />, mode: "1234567890" },
-  { icon: <HiMail />, mode: "loremipsum@gmail.com" },
+  { icon: <HiMail />, mode: "Loremipsum@gmail.com" },
   {
     icon: <ImLocation />,
     mode: "905 Watters Creek Boulevard, 141, Allen, Texas, USA",

@@ -4,9 +4,16 @@ import { pictures } from "../../constants/constant";
 const Pictures = () => {
   return (
     <div className="w-full">
-      <div className="flex overflow-x-scroll no-scrollbar ">
+      <div className="grid grid-flow-col overflow-x-scroll no-scrollbar ">
         {pictures.map((picture, index) => (
-          <img key={index} className="w-72" src={picture} alt="" />
+          <div key={index} className="w-72 h-72">
+            <img
+              key={index}
+              className="w-full h-full object-cover"
+              src={picture}
+              alt=""
+            />
+          </div>
         ))}
       </div>
     </div>
