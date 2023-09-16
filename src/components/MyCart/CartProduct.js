@@ -4,7 +4,7 @@ import { RiDeleteBin6Fill } from "react-icons/ri";
 const CartProduct = () => {
   return (
     <div>
-      <div className="flex justify-between ">
+      <div className="flex justify-between gap-14">
         <div className="w-60 h-60">
           <img
             className="h"
@@ -23,7 +23,10 @@ const CartProduct = () => {
               <span className="flex justify-center items-center text-xl font-medium w-8 h-8 bg-gray-400">
                 -
               </span>
-              <input className="text-center" type="number" />
+              <input
+                className="text-center border border-black"
+                type="number"
+              />
               <span className="flex justify-center items-center text-xl font-medium w-8 h-8 bg-gray-400">
                 +
               </span>
@@ -38,7 +41,7 @@ const CartProduct = () => {
             <p className="line-through text-center">$125.00</p>
           </div>
           <div className="flex flex-col gap-3 items-center">
-            <button className="py-2 text-lg px-8 font-medium text-primary">
+            <button className="py-2 text-lg px-8 font-medium border-2 border-primary text-primary">
               REPLACE BUTTON
             </button>
             <button className="flex gap-2 py-2 px-8 font-medium text-lg items-center text-orange-600">
@@ -48,7 +51,7 @@ const CartProduct = () => {
           </div>
         </div>
       </div>
-      <hr className="bg-black h-0.5 ml-8 my-10" />
+      <hr className="bg-black h-0.5  my-10" />
     </div>
   );
 };

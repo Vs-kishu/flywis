@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import CartProduct from "./CartProduct";
 import PriceDetail from "./PriceDetail";
-import { FaPercentage } from "react-icons/fa";
 import { AiFillApple } from "react-icons/ai";
 
 const MyCart = () => {
@@ -23,7 +22,6 @@ const MyCart = () => {
       <div className="flex gap-10 justify-center">
         <section>
           <div>
-            <CartProduct />
             <CartProduct />
             <CartProduct />
           </div>
@@ -50,11 +48,9 @@ const MyCart = () => {
               CLICK TO LEARN MORE
             </Link>
 
-            <div className="relative flex items-center text-xl my-12 font-semibold">
+            <div className="relative flex items-center justify-center text-xl my-12 font-semibold">
               <hr className="w-full h-0.5" />
-              <span className="absolute left-1/2  mx-auto flex px-4 justify-center bg-white">
-                OR
-              </span>
+              <span className="absolute  mx-auto px-4 bg-white">OR</span>
             </div>
             <div className="">
               <h3 className="text-lg font-semibold my-4">
