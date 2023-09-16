@@ -9,7 +9,7 @@ const MenuOptions = () => {
         <Link>SHOP</Link>
         <Link to={"services"}>SERVICES</Link>
         <Link to={"gallery"}>GALLERY</Link>
-        <Link>PAYMENT PLANS</Link>
+        <Link to={"paymentplan"}>PAYMENT PLANS</Link>
         <Link to={"contact"}>CONTACT</Link>
         <Link to={"aboutus"}>ABOUT US</Link>
       </ul>

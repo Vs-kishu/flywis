@@ -1,6 +1,9 @@
 import { BsTelephoneFill } from "react-icons/bs";
 import { HiMail } from "react-icons/hi";
 import { ImLocation } from "react-icons/im";
+import { PiStarFill } from "react-icons/pi";
+import { BiSolidLike } from "react-icons/bi";
+import { TiTick } from "react-icons/ti";
 
 const ServiceCardImages = [
   {
@@ -207,6 +210,77 @@ const galleryImages = [
     service: "Cosmelan Treatment",
   },
 ];
+
+const PAYMENT_TYpes = [
+  {
+    src: "https://s3-alpha-sig.figma.com/img/5a65/12f2/28ccef67e2fb8ee5d9c5a6164c8af649?Expires=1695600000&Signature=ZEzkWTa8eyGD2qBtxN3YXZSnEfePTdGP3ANEFf8cHkyr0bxcXzzhioj9MyLuGRz9wQzff86-TlMnxMcJijVI-iVIgXJSBrF2hw0Dm5guumpnvf2W83HR6t6kaK59liOasW~WaX1RFcaMSG0Tuezqo3X8PJmtUfNr2OeqSZEfbig-mFUDIgs4lWsrL9s6yRrMpDVoiftdHdJrepebsgiZ92ZMiqRlaTKKp6Hmho4wCK-VDzjNcpMSrfYvxkIvEYZGBUrDMS-t4mtqKiEl-JjjsBWHo6-N~THruK25Sp-j1XOpq8HJC9R4C865zJHh3HNPCT4MnssybUIUoldBbqgqBA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    type: "Quick Applications",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/67d6/e884/c551c1d32d16263b24e2b2efea2a2003?Expires=1695600000&Signature=dLR5Qdh1IZvQh69362RBKofXwuRupAFoZ7AwZ94rb2EuGWd3nIRK5UW20StYds4DI4c6mhuvzX4MCKbiNy6LxWPF6YRBM94eKnhTldqH9LSfznAs6kF0VQkF5nnaaixPHaHEK5j2NZ5j41jzxz7qcXXqr63Bsv1C4RPWjQUXXTjTdb2-r6KnQtz3iwyHz8hdxi~KfbSl8IL9F-VrutL3orirZ~hToGgWJNnoaHOddq6kRzk4pdhXKcEvaGv9ZEQk2teoN50m7hh9yzDzDw9OBVTzysVFiMxxtSlwCmXFxb5olzndVb4T9lx2teWm~TZH2nLet~QqnobKQZWH86OFXQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    type: "Flexible Payment Options",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/2481/41b0/351fe0efc07da455ad7e11e2e1386290?Expires=1695600000&Signature=AGfYsQPyn0EeSVYWpubi2D60MtY3jTQ6s8DrfgazXvWkimAQCP0zm0aQ-bdQ7ebNYs-d5WqDBmv-DhH~15AgiFZmPE2kqubosw7Q1JwmSpSjoG2TxhgIQrGrOdWy23Cy46EQIJ45Nhl23FL7gUCS1NPBki-bjLwdMqbpFSf1rhF75C~RP~kPLAk0PV8qvSlPMBEpP5Wj8NndgXQEb~DkxHmrei5ZhaiCZqdHrcv-XUWnlJIARFH4QhJzE8GKPjWrcgYTVpa25zYukOz9yYqIBb4DDpZqQrZDbg-PCiwLcd0VnY74bmcO9msdegkpsuXIu~xr~TAwsPaB40TfIH3Etg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    type: "No Hard Credit Check",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/7cdf/39dd/36226ae6544374ca0dd67eab301482c9?Expires=1695600000&Signature=OaYDj73pXxBGDDf9nZ12Wdtm68hrAa9grFqYRTpptDxdBjueDT2Z2Yyv4-hkgYtj~KPYpZ9Vaikqa6rGLrdcmrw1Gc8ohXMaiS6T-rnoArEBUIJBaTbA21RIMDZFs~T9dtR-0hCRDPoQkj-N3cUP5crmdah5X6j4cLwiDjcQdGf2xkGpk3yOOJDwm~SMWtKPAtteT9WqDBGxOvfip8V2rUZd1GUObTgTZLVIUiDMsXre0zHoq43aCSmYlQXaxx8CTE3mx3NXF6vRsSKQ~KKunMBNxQGjcPw7TKzowRv8522UvOYV~rRvDPpYVavlWK1AB4bQcVt2IJFKI077ts~RLQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    type: "High Approval Rate",
+  },
+];
+
+const financialSituation = [
+  { icon: <TiTick />, value: "OKAY" },
+  {
+    icon: <BiSolidLike />,
+    value: "GOOD",
+  },
+  { icon: <PiStarFill />, value: "GREAT" },
+];
+
+const testimonials = [
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+  {
+    title: "Claire M.",
+    desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
+  },
+];
 export {
   pictures,
   ServiceCardImages,
@@ -228,4 +302,7 @@ export {
   PLATINUM_MEDAL,
   DIAMOND_MEDAL,
   galleryImages,
+  PAYMENT_TYpes,
+  financialSituation,
+  testimonials,
 };

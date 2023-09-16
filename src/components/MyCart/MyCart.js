@@ -1,24 +1,14 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import CartProduct from "./CartProduct";
 import PriceDetail from "./PriceDetail";
 import { AiFillApple } from "react-icons/ai";
+import { Header } from "../../utils/helpingComponent";
 
 const MyCart = () => {
-  const navigate = useNavigate();
   return (
     <section className="my-14">
-      <div className="relative my-14">
-        <h1 className="text-6xl font-light text-center">My Cart</h1>
-        <div className="absolute top-0 left-12">
-          <img
-            onClick={() => navigate(-1)}
-            className="cursor-pointer"
-            src="/asessts/back-button.svg"
-            alt="back-button"
-          />
-        </div>
-      </div>
+      <Header heading={"My Cart"} />
       <div className="flex gap-10 justify-center">
         <section>
           <div>
