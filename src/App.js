@@ -14,6 +14,7 @@ import MenuOptions from "./components/home/MenuOptions";
 import { lazy, Suspense } from "react";
 
 const LogIn = lazy(() => import("./components/auth/LogIn"));
+const MyCart = lazy(() => import("./components/MyCart/MyCart"));
 const Contact = lazy(() => import("./components/Contact"));
 const AboutUs = lazy(() => import("./components/AboutUs"));
 const Membership = lazy(() => import("./components/memebership/Membership"));
@@ -51,6 +52,10 @@ const appRouter = createBrowserRouter([
       {
         path: "signup",
         element: LazyComponent(<SignUp />),
+      },
+      {
+        path: "mycart",
+        element: LazyComponent(<MyCart />),
       },
       {
         path: "contact",

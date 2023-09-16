@@ -19,7 +19,9 @@ const Navbar = () => {
             src="/asessts/navbar/search.png"
             alt="search"
           />
-          <FaShoppingCart className="text-secondary w-8 h-8 text-2xl" />
+          <Link to={"mycart"}>
+            <FaShoppingCart className="text-secondary w-8 h-8 text-2xl" />
+          </Link>
           <div className="flex items-center gap-2">
             <img
               src="/asessts/navbar/profile.png"
