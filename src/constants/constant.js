@@ -53,6 +53,11 @@ const partners = [
   "https://s3-alpha-sig.figma.com/img/3eea/d654/3bf764e23b6b185a161e1aa239c3c273?Expires=1695600000&Signature=ixCZEZbINupMHFBBPEc7W9133fIQjexbLRQBaqqf4gDmF8HFkDXvLXBODwJMUsrwVx4C~4~iSz3Dn5CNIwtbeAhJQBPJVVNuKxf9CstUVBRzbUNKaACeER0qk301GNZ0LIBlSvvCqxv1toXmDqPA5pVQlyh6dlgmSPK6BU62M93KldMbIGKW2meL0hJA-El8kA197r3FCIQ7ZAeTixIWb2Y5SDyCQH0abwWJlbxbfwBx1sZfP~js-70x5vH74LyUekOMVJPy9njuDUkCNQgMKTIXQCdF9zbb-mRAcC8TC27VTFUY6DMxJXfkgGq-CAX~eYVARG7ILOkNc8zXzc7L~Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 ];
 
+const OUR_PRODUCT =
+  "https://s3-alpha-sig.figma.com/img/b45f/e173/82b3f89f94436be693ee3a512f45dcb8?Expires=1695600000&Signature=UlwGvxweDXSsAUZc~SqQxr01~x~3x9m9~Z8ltgPia9kmntXJKzzllLbHhk1a8iGojOoV7ttP8hdzhCMja1oQXMaRkggPwZWfJJlvg~vBvMXT3xokRwfuMhL9Oi1eDdra0wRwUvb9x0AYue5vvbEU2zgVWVQHpzl2kZKJ4pbtRw3I86XLo2WInEA4y-CGM9cpvQpPq3CDzv9a4RGruTkAvm6A1PtTi~iMfIKIzI-vJ03U3-tXCj2QqwPHnxIFec~mv0fDTxh6VoGRoQY60a28zaRJHIP9hvYqgCsGCCq7jZWnj2klLczCakCh5d2PmSp7J6K4ysYJGaPSxSteYn5kww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+
+const WHO_WE_ARE =
+  "https://s3-alpha-sig.figma.com/img/0677/4150/8ab9a9d80196a8fb9f01e940dbf0d7e1?Expires=1695600000&Signature=FHtS1H3VCTbaxg-GVudn~qYqdDoK8CZjXpq4P~GnTvrFwNLD-WWpSmFXVRIsMgm8elyjzJ~FPPDMjr9Fnk-sDPW5oJZELl7oYzKoffOG~~gDvjMAte7Q~xAs4FvQkZfKkv1vPyLzZv2tcHGUgcOAB9QPrc3o2gnsvm7a~gJj8zzqhitQ1l1r6Uf5PrWNJ-uBxXt3oCIfCLecOKdPNRqnOYD0NTfe8ftcbIwbIW9ahs7cls4vhHsQmxAKN3drRkMABEOZdzkf5pSInak2lpeEquJR5asUg~EMZV76qGHxK2wvYl05sbdF4EObSCp0xUN4nYq7VVfLVJYsTOkgINxqdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
 const latestNews = [
   {
     src: "https://s3-alpha-sig.figma.com/img/3c46/2883/d5d30d58bd93eca65474feedc16054da?Expires=1695600000&Signature=jIq2hAvOAY0w5TDVbw2XKx8fiCOM9WwOWQO3A9zPq092EobGjNFrx~sFzFo84KCyLzhhDXRHxWP3gtOjptr9MCXgBH-jlHgJuFe~FUQJms4eW4lXhHE4IhzFO26Q--yVFlGl2CEdPyGr~OZi12rZMQTtk7WAUNSymlz9OqC65biKCoclysgMxGIDSg3pnmomnmZR-9wsYGr9BGnmTeULSQWrhlO2GEK2nepj5SLJMJjtf~LJB3~SvI80SKY9kVD5ejif1PxLc3O~EHD-7NROn9w2YwAP8yX1m9DWMNIFXgrIpkezD7ZGCaVyPMXtRwHT0C7Z~w-zSMaO5tfTt1t9HQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
@@ -208,6 +213,8 @@ export {
   OFFER_IMG,
   partners,
   paymentCards,
+  OUR_PRODUCT,
+  WHO_WE_ARE,
   latestNews,
   footerLinks,
   contact,

@@ -1,18 +1,19 @@
 import React from "react";
 import DescriptionView from "./DescriptionView";
+import { OUR_PRODUCT, WHO_WE_ARE } from "../../constants/constant";
 
 const Description = () => {
   return (
     <section>
       <DescriptionView
-        src={"/asessts/description/products.png"}
+        src={OUR_PRODUCT}
         title="Our Products"
         content="Nourish your skin with toxin-free cosmetic products. With the offers that you can’t refuse."
         desc="Non aliqua reprehenderit reprehenderit culpa laboris nulla minim anim velit adipisicing ea aliqua alluptate sit do do.Non aliqua reprehenderit reprehenderit culpa laboris nulla minim anim velit adipisicing ea aliqua alluptate sit do do.Non aliqua reprehenderit reprehenderit culpa laboris nulla minim."
         btnName="EXPLORE PRODUCTS"
       />
       <DescriptionView
-        src={"/asessts/serviceCards/service1.png"}
+        src={WHO_WE_ARE}
         title={"Who We Are"}
         content={"Shahina Hoja, RN, LE Aesthetic Nurse & Founder"}
         desc={

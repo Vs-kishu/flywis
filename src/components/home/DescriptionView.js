@@ -27,8 +27,12 @@ const DescriptionView = ({
           </div>
         </div>
       ) : (
-        <div className={`${img ? img : "ps-5"} w-1/2`}>
-          <img src={src} className="object-contain w-full" alt="products" />
+        <div className={`${img ? img : "ps-5"} w-1/2 h-[44rem]`}>
+          <img
+            src={src}
+            className="object-cover w-full h-full"
+            alt="products"
+          />
         </div>
       )}
 
