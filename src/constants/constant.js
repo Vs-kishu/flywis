@@ -3,15 +3,42 @@ import { HiMail } from "react-icons/hi";
 import { ImLocation } from "react-icons/im";
 
 const ServiceCardImages = [
-  { src: "/asessts/serviceCards/service1.png", service: "Hair Loss" },
-  { src: "/asessts/serviceCards/service2.png", service: "Pigmentation" },
-  { src: "/asessts/serviceCards/service3.png", service: "Acne" },
-  { src: "/asessts/serviceCards/service4.png", service: "Aging" },
-  { src: "/asessts/serviceCards/service5.png", service: "Fat Reduction" },
-  { src: "/asessts/serviceCards/service6.png", service: "Acne Scar" },
-  { src: "/asessts/serviceCards/service7.png", service: "Laser Hair Removal" },
-  { src: "/asessts/serviceCards/service8.png", service: "IV Injection" },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/0677/4150/8ab9a9d80196a8fb9f01e940dbf0d7e1?Expires=1695600000&Signature=FHtS1H3VCTbaxg-GVudn~qYqdDoK8CZjXpq4P~GnTvrFwNLD-WWpSmFXVRIsMgm8elyjzJ~FPPDMjr9Fnk-sDPW5oJZELl7oYzKoffOG~~gDvjMAte7Q~xAs4FvQkZfKkv1vPyLzZv2tcHGUgcOAB9QPrc3o2gnsvm7a~gJj8zzqhitQ1l1r6Uf5PrWNJ-uBxXt3oCIfCLecOKdPNRqnOYD0NTfe8ftcbIwbIW9ahs7cls4vhHsQmxAKN3drRkMABEOZdzkf5pSInak2lpeEquJR5asUg~EMZV76qGHxK2wvYl05sbdF4EObSCp0xUN4nYq7VVfLVJYsTOkgINxqdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Hair Loss",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/5c41/0b62/48165230d1b4763459c0b9d0503e0b05?Expires=1695600000&Signature=KcrqSQskOFWg~Rev8KUHDnNc2Vw1c~SOUHRXGL-h7c2Gy3~Z-Ggl3vxoLQbP0sQnndFBN73YoV63xrdIDu3JTjad5BqHJbcmFiNpCCuon7WE9yN2OaXsXYTHZwOBXgcDx~2r0iaf4N4CP-oTg9mZP-QucuFLonDrGtp0~V5sByFuuA4h0aJhdgF-2GN453rHziNu5eyBSS18LeBsRSLXIGrAoVXHi2rRcE~SjrZLLz048POZ5-ayZ9Y-6LD9-vlcV92Wis5gJn7IHLn70wqyquIl6fSAurJ3hIAegBece~xdLc6HOh9LRONGF5Ckf2esEtkSc3c11F78YFhKnlmlpA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Pigmentation",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/8d1f/0c15/fbbdbebb3f93e537f447b4fdcda75b81?Expires=1695600000&Signature=fZTqRwU6PG7jw-jhpR-SBwJDZTP~PCQukmzwQ02jrv09JbBvBWNVaHqPbY8p6HEXLV~zSGZZxYBWhQP7YaIx6bYwvsxxe~Gb9Zz3C-OqfGhzG364UnjLcwmhzzEgJA-029tqlhb635rtjmwCqD3uAQLFEVmA12~qAsuE8KEYUeW~zop29Dgg4nNvXTV-kcjHrf9a57EyAjiHYwdcVIAM~39M9MHa8kG1pvFE7J4jnvgYgNJ6oxZ85N3GOC288Pdj8UVSO5dI~ov4BTLsP9HcN~GqhOB4CB5UFRokybDMbkHaRpxkmyaDso79J8a6JU0dAeGrhSVw9BMON6kiMFw9JA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Acne",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/4817/731b/d3acaa81009111494bfd9a5a63a9ce7a?Expires=1695600000&Signature=NMzHU9FFpfAZWqqaFFWhe8q-6sVDlHaP9mDNXh7SdcGeY8DAyUazS9QgOP5ZJE1L-Yf03UOZmv~zr8MVz~jAc7OHj3U7QuXEypYE9hsHPC4X51rqxK71jXgTb9cl-bXo1Wtewc646Nwi73Q2lVu~2nY1tNRlp-PDm954lTmXAzJEKv2o3NTAUMUQbfZd~Gw6HYfannb8bSztwnXt8kCnR2V2chmXu-YJKUXjSB-zHwl7P2da3SZ1t9yh4-r~KBhkKEkRZux04TXDMqdLiP88JIT3Mz8Z259wwhLKETm473PSSkTVWeEr-dn3OxaTgMDWPLPsL7c0DGe2bi~xdvtasg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Aging",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/3804/b0a6/6f1698dffe01fc5ae44e540d0c25a5de?Expires=1695600000&Signature=fc4S8FRuvONvMLKRTvJy-UNS-7QOpArJt36F72yDeqFdyJildYjp1rm-J3c4U0pIVFZrCRo2aU0bFFf3ymAvC0EcPN6a1MLMyv-dBAxulQnftpRrwANvDwG~I0AC243ffXuAM0A4g3-fJNhv2-R3hsUCxC6dXGOJoFpG40p~8hpLmI2PENQU2OPVhojTAy0zWbVGNZzdzOLNcsRHyXfKiUITCgbBrEbmx3XzW7DpkS6w696YFuMEorHD9UVDhyDeyi5McXAqDQI4Wvsz0aysd7YF3KcH6d~k1HvgA-Pp2ZSaFZLJw1L7zKXxI4b1RAtMYCDKJ6fPt2ko-X~9GWseYw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Fat Reduction",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/8c21/d76f/78a90a74c6a4a811449adb050f2605b8?Expires=1695600000&Signature=j308guln5L0UqIHHPxbdL5IDKvI2QGuLnImZnhdjcdoMUhAvsa~91IHJcQ~s5jksc1U-~triPZqWJ0n9HLL8aBZvVu8q-yjxAzVP~TjOZmCqPY-QndPpg0~KNMzCxMQ8W5h4aiXO0Q8ZZyibb8kcoUBkQICQaNLcLwow0DXfSnAc~LQlSg28rYD7dmHRRYVu-DCeOnW54r9VExn3zoU54J7qThsuxJ~voPeZUyDCd0K0TTcm-XGRQMkx~GEoeIAMqsjs9WuvQDsQR4GaxYdfFkOfCPvg19CVvnZm8yvFWsGaHFpBzgEMw2rWIZzyX~~9z0j~uuTSk2SauSPTzm9nkw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Acne Scar",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/b46b/41b3/cedc4aa2ca105e35a79d81cad7b24d85?Expires=1695600000&Signature=gGNdqrn-LopoHE7m4PorCCKi-DH1Ol5NAZMzcYgyOImzTBdF1UNpHgXv4uunXacs9Pn-V~aCouqwD0d9QMF2pKpBDZnuT~Zo9c3P1mzvtpd3l1riUB1bVDx~qWHETtDG1Tjbj-E0ckIERtv2vYibwWjWYjZ5LecZL-poCqZQW9mIEN4qxykaupldIlJR-ZYB8A822pTwxgZiJaIHwfqSeVnpVE3I5-KYFedZNVGtugSNAMY7m3E2aNdj3qaFudYCwMNLo15rrgI7aFjxDsOdj2LrWmGd954WER3HeVw-4D8Nl-wCJUxu7DJDynmZgSe6xWX1OYhuGEcgrlVXJxNnfQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "Laser Hair Removal",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/bc3f/2aad/cff57b10a3331b29b4ce48cb74b07651?Expires=1695600000&Signature=NNPUETZGzn~MndYwrb6B2WkAafLYhgaOAVWXnIM21v~ixzR42JBfJlIsbVNpskjZ~l62bAIu3Vg6hp-hMxfKe9FcLUQi-9iwqfNt1JfJn0JwuUjWhIxN0aeVVCepbChiPlSVUHKTg1Zp0iLCUv8niZi9Fk7EOvDzwnIUMDH7piKse7zb8pwwgc-Mb2ena8JRVWNg6EiU0v5lTF-0~k1Nd7TeP7aI7o14iQ3OjztIB16NoA2tAR7XOSSyR~ZGQira~l6BazZ0mUtTpmLYP4nLwZ7opnMblnwRJwjrdNt867XO~IIUyWwjbpmjmxrCs6YrvATl8KOird63Ca0RWOMj9g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    service: "IV Injection",
+  },
 ];
+
+const OFFER_IMG =
+  "https://s3-alpha-sig.figma.com/img/e1a2/93bc/fc06329d69926d35461101cc1a257b0a?Expires=1695600000&Signature=Zd1GnxZ4P7DbJMXPiYnXkl-WL7UcBCs2V0frn4BJyjmYr7vqiDwDquX1muN~im8fwC-m4ENof8rvG9uIyUusTLacprn06p2sHRPBKiVybzqO3RfEoj7jYz4OcE3LvUDqN0i5a~CMDrMxNWMEaWXSwqY9bwCiR0e0CwVHBuhE4DjO7D73ckTw26zB518KEb~8I2r6YsoaE4ZAgTQl0ezKHCJScDa-mPWYmNSLdvDYEPlfDnBTWqEkfHuJqt6Bqmvhsu9ZXNi-0ft2dcCHpElgwRgm16pnzoC~3tqAFwODGGfCth36yOnQWsZUvBJbvJ9g1jlba6NOdpQ-PveyR7BJtA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
 
 const partners = [
   "asessts/description/partner (1).png",
@@ -189,6 +216,7 @@ const galleryImages = [
 export {
   pictures,
   ServiceCardImages,
+  OFFER_IMG,
   partners,
   paymentCards,
   latestNews,

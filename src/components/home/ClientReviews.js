@@ -22,10 +22,11 @@ const ClientReviews = () => {
           />
         </div>
       </div>
-      <div
-        className="flex gap-3 p-5 overflow-x-auto"
-        style={{ maxWidth: "100%" }}
-      >
+      <div className="grid grid-flow-col gap-3 p-5 overflow-x-scroll no-scrollbar w-full">
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
         <ReviewCard />
         <ReviewCard />
         <ReviewCard />
