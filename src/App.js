@@ -21,6 +21,7 @@ const Membership = lazy(() => import("./components/memebership/Membership"));
 const ServiceTab = lazy(() => import("./components/Services/ServiceTab"));
 const Gallery = lazy(() => import("./components/Gallery/Gallery"));
 const PaymentPlan = lazy(() => import("./components/PaymentPlans/PaymentPlan"));
+const Shop = lazy(() => import("./components/shop/Shop"));
 
 const LazyComponent = (Component) => {
   console.log("here");
@@ -69,6 +70,10 @@ const appRouter = createBrowserRouter([
       {
         path: "membership",
         element: LazyComponent(<Membership />),
+      },
+      {
+        path: "shop",
+        element: LazyComponent(<Shop />),
       },
       {
         path: "services",

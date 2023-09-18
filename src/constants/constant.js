@@ -281,7 +281,14 @@ const testimonials = [
     desc: "I’m a teenager who developed stretch marks through puberty. I really hated the way it looked. The stretch marks appeared on my thighs, knees, and buttocks area. I went to see Shahina for a consultation and she recommended micro needling treatment. I completed 3 sessions. I am very pleased with the results. Shahina was very professional and kind. I would definitely recommend her to anyone who has any skin issues. Thank you so much Shahina!",
   },
 ];
+
+const SERVICE_HEAD_IMAGE =
+  "https://s3-alpha-sig.figma.com/img/efd9/806b/22695128354bc21a01db7664dde7431c?Expires=1695600000&Signature=qeDPlcMMtQ0gmydwoHsfbwudAtYnOiBQ2RvJJ2rqygP9SVziIA6yWxKVmkL19KldVRzunAOtcHKuW2XKvFjroaRGnG-uFTCD2cM8mcNXjBBUKZ8wv0L68COJqNm1YFNtkDNymjn9PEowTS2t59SIJCRQfDNO0RcM4B7txIVgK5NXDH67cOoiNWwQDdSMqu8HkrpEykNfAPUO1uwUrxNbof6HLyrLx7KvT2E6rkH~dMCWe1WDc-huVMKidYjM5QVkxkT7eoPtD2imKS6-H2huXeqkgJqyocTyNV4TkvmyW91rIzNmWkZNL8aigdYJopYsJ0decXRUtmUdfUR26HAx1w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+const SHOP_HEAD_IMAGE =
+  "https://s3-alpha-sig.figma.com/img/268d/24ba/bb48b7bd0d95329554b1742720841d8d?Expires=1696204800&Signature=nat7T8YaCWMkpumh8Qgf6-fDIQEz3f7RttC9cira-fzvYTzelhoFfK5YDiyMnGg-ncpd0cbKgFyRTrdivHcYIaKJfJsHfBiqX~MfSf5JDJnVFyLTdVeOMwKwZSbe1WoxL8HyteWmQDiXgbZfqewZwy5NWMir2hxMV9OkLQh4EbkoTt102nNA93ShDS5KeUfJbC1f8yc0Bl10y76hMrML51SyT-xIQlytCPd8czbiiDJg9I6lHgmeQdSVcJYbPDLbRFT5QvtfE9p3TWzWMRoBNTmJC0z~u4dNNXt391N5xaaTW-4Autu8euTLco8~T15uxJfBMWY96KdQPoQDUmZREg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
 export {
+  SERVICE_HEAD_IMAGE,
+  SHOP_HEAD_IMAGE,
   pictures,
   ServiceCardImages,
   OFFER_IMG,

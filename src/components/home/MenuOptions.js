@@ -6,7 +6,7 @@ const MenuOptions = () => {
     <header className="bg-primary text-color font-medium text-lg text-secondary p-3">
       <ul className="flex justify-evenly">
         <Link>HOME</Link>
-        <Link>SHOP</Link>
+        <Link to={"shop"}>SHOP</Link>
         <Link to={"services"}>SERVICES</Link>
         <Link to={"gallery"}>GALLERY</Link>
         <Link to={"paymentplan"}>PAYMENT PLANS</Link>
