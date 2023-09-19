@@ -149,9 +149,10 @@ const footerLinks = [
 const contact = [
   { src: "/asessts/footer/contact (1).png", mode: "+91 1234567890" },
   { src: "/asessts/footer/contact (2).png", mode: "Loremipsum@gmail.com" },
+  { src: "/asessts/footer/instagram.png", mode: "@nurse.shahina" },
   {
     src: "/asessts/footer/contact (3).png",
-    mode: "XYZ City, 6th Avenue, New Jersey",
+    mode: "905 Watters Creek Blvd Suite 141, Alllen , TX - 75013",
   },
 ];
 
