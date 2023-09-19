@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <section className="bg-primary text-white py-5 px-8 relative">
-      <div className="flex justify-between px-8">
+      <div className="flex flex-wrap gap-5 justify-center lg:flex-row lg:justify-between px-8">
         <div className="flex flex-col gap-1 items-center justify-center">
           <span className="text-lg font-medium">FOLLOW US</span>
           <div className="flex items-center justify-center gap-2">
@@ -48,8 +48,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between gap-5 px-5 relative">
-        <div className="flex justify-between mt-5 w-3/5">
+      <div className="flex flex-col max-lg:items-center  lg:flex-row lg:justify-between gap-5 px-5 relative">
+        <div className="flex lg:flex-row flex-col gap-3 justify-between mt-5 w-3/5">
           {footerLinks.map((item, index) => (
             <div key={`links ${index}`}>
               <h4 className=" text-secondary text-xl font-medium">
@@ -66,7 +66,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="ms-5 mt-5">
+        <div className=" mt-5 max-lg:w-full">
           <h4 className=" text-secondary text-xl font-medium">Contact</h4>
           <div>
             {contact.map((item, index) => (
@@ -80,11 +80,9 @@ const Footer = () => {
           </div>
           <div>
             <iframe
-              className="mt-3"
+              className="mt-3 w-full lg:w-[400px] h-full lg:h-[200px]"
               title="mapping"
               src={MAP_URL}
-              width="400"
-              height="200"
               style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
@@ -93,11 +91,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-0  flex items-center gap-3 w-1/4">
-          <div>
-            <img height={100} src="/asessts/specialOffer.png" alt="offer" />
+        <div className="max-lg:hidden absolute bottom-0   flex items-center gap-3 xl:w-1/4">
+          <div className="w-30 h-14">
+            <img
+              className="w-full h-full"
+              src="/asessts/specialOffer.png"
+              alt="offer"
+            />
           </div>
-          <h6>
+          <h6 className="w-52 text-base">
             Get 50$ OFF on your First Visit when you Book through our App.
           </h6>
         </div>

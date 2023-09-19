@@ -3,7 +3,7 @@ import React from "react";
 const OfferCard = () => {
   return (
     <div className="flex gap-5 bg-secondary items-center justify-between px-3  rounded-md h-full">
-      <div className="w-48">
+      <div className="w-44 xl:w-48 p-2">
         <img src="/asessts/specialOffer.png" className="w-full" alt="" />
       </div>
       <div className="flex flex-col gap-3 py-2">

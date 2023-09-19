@@ -2,63 +2,59 @@ import React from "react";
 import { partners } from "../../constants/constant";
 
 const DescriptionView = ({
-  styles,
-  img,
   src,
   title,
   content,
   desc,
   desc1,
   btnName,
+  styles,
+  reverse,
 }) => {
   return (
-    <div className={`flex ${styles}`}>
+    <div className={`flex ${reverse} flex-shrink-0`}>
       {title === "Our Partners" ? (
-        <div
-          style={{ width: "50%", height: "600px" }}
-          className="ps-5 bg-lightSecondary"
-        >
-          <div className="grid grid-cols-2 h-full p-8">
-            {partners.map((src, index) => (
-              <div className=" grid  grid-cols-2 gap-5" key={index}>
-                <img src={src} alt="partner" className="" />
-              </div>
-            ))}
-          </div>
+        <div className="w-1/2 h-[44rem] flex-shrink-0 grid grid-cols-2 gap-3 justify-items-center items-center py-28 px-16 bg-lightSecondary">
+          {partners.map((src, index) => (
+            <div key={`partner ${index}`}>
+              <img className="w-2/3" src={src} alt="partner" />
+            </div>
+          ))}
         </div>
       ) : (
-        <div className={`${img ? img : "ps-5"} w-1/2 h-[44rem]`}>
-          <img
-            src={src}
-            className="object-cover w-full h-full"
-            alt="products"
-          />
+        <div className="w-1/2 h-[44rem] flex-shrink-0">
+          <img className="h-full w-full object-cover" src={src} alt="" />
         </div>
       )}
 
-      <div className="w-1/2 flex flex-col justify-between pb-3">
-        <div className="mx-auto px-2 py-2 text-center font-medium w-full text-3xl bg-secondary text-primary">
+      <div className="flex flex-col items-center justify-between  w-full">
+        <h1 className=" bg-secondary w-full text-center  py-4 text-4xl font-medium text-primary">
           {title}
-        </div>
-
-        {content && (
-          <h4 className="text-center mx-auto font-medium text-3xl w-3/4">
-            {content}
-          </h4>
-        )}
-        <p className="text-center mx-auto text-xl w-3/4">{desc}</p>
-        {desc1 && <p className="text-center mx-auto text-xl w-3/4">{desc1}</p>}
-
-        {btnName && (
-          <div className="flex justify-end">
-            <button
-              className={`w-1/4 text-primary bg-secondary py-2 font-bold  border ${
-                title === "Our Products" ? "mr-5" : "mx-auto"
+        </h1>
+        <div className="px-12 py-10 h-full text-center ">
+          {content && (
+            <h4
+              className={`text-3xl  font-medium leading-10 ${
+                styles ? styles : "mb-28"
               }`}
             >
-              {btnName}
-            </button>
-          </div>
+              {content}
+            </h4>
+          )}
+
+          <p className="text-2xl font-normal mb- leading-10 text-left">
+            {desc}
+          </p>
+          {desc1 && (
+            <p className="text-2xl font-normal leading-10 text-left mt-8">
+              {desc1}
+            </p>
+          )}
+        </div>
+        {btnName && (
+          <button className="w-96 py-3 mb-14 text-primary bg-secondary  text-2xl font-semibold">
+            {btnName}
+          </button>
         )}
       </div>
     </div>

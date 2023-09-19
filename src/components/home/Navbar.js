@@ -5,11 +5,14 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="bg-primary">
-      <header className="flex px-3 py-3 justify-between items-center navbar-expand-lg">
-        <div className="w-[10%]">
+      <header className="flex px-3 justify-between items-center ">
+        <div className="w-40 h-40 ">
           <Link className="text-decoration-none" to={"/"}>
-            {" "}
-            <img src="/asessts/navbar/logo.png" alt="logo" />
+            <img
+              className="w-full h-full object-contain"
+              src="/asessts/navbar/logo.png"
+              alt="logo"
+            />
           </Link>
         </div>
 
@@ -34,7 +37,7 @@ const Navbar = () => {
           </div>
           <Link to={"membership"}>
             <img
-              className="w-14 h-14"
+              className="w-12 h-12"
               src="/asessts/navbar/crown.png"
               alt="crown"
             />

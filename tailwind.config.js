@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         Sacramento: ["Sacramento", "cursive"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
     },
   },

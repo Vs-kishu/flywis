@@ -12,15 +12,15 @@ const LatestNews = () => {
   const displayedNews = showAll ? latestNews : latestNews.slice(0, 3);
 
   return (
-    <section className="mt-5">
-      <div className="flex flex-col items-center my-14">
-        <h1 className="text-3xl text-primary font-medium">Latest News</h1>
-        <p className="w-1/2 text-center mt-3 mb-3">
+    <section className="mt-24">
+      <div className="flex flex-col gap-7 items-center">
+        <h1 className="text-4xl text-primary font-medium">Latest News</h1>
+        <p className="text-xl text-center w-[53rem]">
           Nourish your skin with toxic-free cosmetic products. With offers you
           can't refuse.
         </p>
       </div>
-      <div className="flex flex-wrap  gap-3 mx-auto justify-center">
+      <div className="flex flex-wrap  gap-3 mt-14 mx-auto justify-center">
         {displayedNews.map((card, index) => (
           <NewsCard
             key={index}
@@ -30,7 +30,7 @@ const LatestNews = () => {
           />
         ))}
       </div>
-      <div className="flex justify-center my-20">
+      <div className="flex justify-center my-24">
         <button
           className="w-1/4 py-2 font-bold text-primary bg-secondary"
           onClick={toggleShowAll}

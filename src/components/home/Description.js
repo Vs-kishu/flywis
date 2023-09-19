@@ -20,11 +20,10 @@ const Description = () => {
           "A licensed Aesthetic Nurse and founder of Shahina Hoja Aesthetics. Shahina became Board certified Skin therapist in 2017. 5 years later, and she still continues to grow more passionate about increasing self - love and confidence for all her clients!"
         }
         btnName={"VIEW MORE"}
-        styles={"flex-row-reverse"}
-        img={"pe-5"}
+        styles={"mb-6 text-left"}
+        reverse={"flex-row-reverse"}
       />
       <DescriptionView
-        src={"/asessts/description/products.png"}
         title={"Our Partners"}
         desc={
           "Non aliqua reprehenderit reprehenderit culpa laboris nulla minim anim velit adipisicing ea aliqua alluptate sit do do.Non aliqua reprehenderit reprehenderit culpa laboris nulla minim anim velit adipisicing ea aliqua alluptate sit do do.Non aliqua reprehenderit reprehenderit culpa laboris nulla minim."
