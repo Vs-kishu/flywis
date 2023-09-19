@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const customHeaderStyle = {
   background:
@@ -23,10 +24,13 @@ const TopHeader = () => {
       style={{ background: customHeaderStyle.background }}
     >
       <div className="flex gap-2 text-primary text-base font-medium px-5">
-        <CustomButton
-          src={"/asessts/topheader/gift.png"}
-          btnName="GIFT CARDS"
-        />
+        <Link to={"/giftcards"}>
+          <CustomButton
+            src={"/asessts/topheader/gift.png"}
+            btnName="GIFT CARDS"
+          />
+        </Link>
+
         <CustomButton src={"/asessts/topheader/bulb.png"} btnName="ACNE QUIZ" />
         <CustomButton
           src={"/asessts/topheader/note.png"}

@@ -5,9 +5,9 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-*{
+/* *{
   border:1px solid red !important
-}
+} */
 
 @layer utilities {
 

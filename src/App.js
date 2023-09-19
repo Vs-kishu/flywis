@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import SignUp from "./components/auth/SignUp";
 import MenuOptions from "./components/home/MenuOptions";
 import { lazy, Suspense } from "react";
-
+const GiftCard = lazy(() => import("./components/giftCards/GiftCard"));
 const LogIn = lazy(() => import("./components/auth/LogIn"));
 const MyCart = lazy(() => import("./components/MyCart/MyCart"));
 const Contact = lazy(() => import("./components/Contact"));
@@ -90,6 +90,10 @@ const appRouter = createBrowserRouter([
       {
         path: "paymentplan",
         element: LazyComponent(<PaymentPlan />),
+      },
+      {
+        path: "giftcards",
+        element: LazyComponent(<GiftCard />),
       },
     ],
   },
