@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ServiceHead = ({ title, button, img }) => {
+  const navigate = useNavigate();
   return (
     <div className=" relative max-w-screen">
       <img
@@ -18,7 +20,10 @@ const ServiceHead = ({ title, button, img }) => {
           </button>
         )}
       </div>
-      <div className="absolute top-24 left-12">
+      <div
+        onClick={() => navigate(-1)}
+        className="absolute cursor-pointer top-24 left-12"
+      >
         <img src="/asessts/back-button.svg" alt="back-button" />
       </div>
     </div>
