@@ -40,7 +40,7 @@ const ProductPage = () => {
             <Options type={"PRODUCT TYPE"} options={productType} />
             <Options type={"SKIN CONDITION"} options={skinConditions} />
           </div>
-          <div className="w-full border-l-2 border-l-primary">
+          <div className="w-full border-l-2 border-l-primary mb-20">
             <AllProducts />
           </div>
         </div>

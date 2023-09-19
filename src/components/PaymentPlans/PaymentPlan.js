@@ -5,7 +5,6 @@ import { PAYMENT_TYpes, financialSituation } from "../../constants/constant";
 import Testimonials from "./Testimonials";
 import Faq from "./Faq";
 import ManagePlan from "./ManagePlan";
-import Contact from "../Contact";
 import MoreQuestions from "./MoreQuestions";
 
 const PaymentPlan = () => {
