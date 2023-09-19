@@ -3,9 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *{
-  border: 1px solid red !important;
-} */
 
 @layer utilities {
 

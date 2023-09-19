@@ -22,9 +22,9 @@ const ServiceTab = lazy(() => import("./components/Services/ServiceTab"));
 const Gallery = lazy(() => import("./components/Gallery/Gallery"));
 const PaymentPlan = lazy(() => import("./components/PaymentPlans/PaymentPlan"));
 const Shop = lazy(() => import("./components/shop/Shop"));
+const AllProducts = lazy(() => import("./components/productPage/ProductPage"));
 
 const LazyComponent = (Component) => {
-  console.log("here");
   return (
     <Suspense
       fallback={
@@ -54,6 +54,10 @@ const appRouter = createBrowserRouter([
       {
         path: "signup",
         element: LazyComponent(<SignUp />),
+      },
+      {
+        path: "allproducts",
+        element: LazyComponent(<AllProducts />),
       },
       {
         path: "mycart",
