@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import SignUp from "./components/auth/SignUp";
 import MenuOptions from "./components/home/MenuOptions";
 import { lazy, Suspense } from "react";
+import Quiz from "./components/AcneQuiz/Quiz";
+
 const GiftCard = lazy(() => import("./components/giftCards/GiftCard"));
 const LogIn = lazy(() => import("./components/auth/LogIn"));
 const MyCart = lazy(() => import("./components/MyCart/MyCart"));
@@ -23,6 +25,9 @@ const Gallery = lazy(() => import("./components/Gallery/Gallery"));
 const PaymentPlan = lazy(() => import("./components/PaymentPlans/PaymentPlan"));
 const Shop = lazy(() => import("./components/shop/Shop"));
 const AllProducts = lazy(() => import("./components/productPage/ProductPage"));
+const RecomendedProduct = lazy(() =>
+  import("./components/AcneQuiz/RecomendedProduct")
+);
 
 const LazyComponent = (Component) => {
   return (
@@ -94,6 +99,14 @@ const appRouter = createBrowserRouter([
       {
         path: "giftcards",
         element: LazyComponent(<GiftCard />),
+      },
+      {
+        path: "acnequiz",
+        element: <Quiz />,
+      },
+      {
+        path: "acnequiz/recomended",
+        element: LazyComponent(<RecomendedProduct />),
       },
     ],
   },

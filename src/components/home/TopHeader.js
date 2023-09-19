@@ -1,5 +1,8 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { openQuiz } from "../../store/quizSlice";
+import AcneQuiz from "../AcneQuiz/AcneQuiz";
 
 const customHeaderStyle = {
   background:
@@ -18,6 +21,9 @@ const CustomButton = ({ src, btnName, height }) => {
 };
 
 const TopHeader = () => {
+  const dispatch = useDispatch();
+  const { isQuizOpen } = useSelector((store) => store.quiz);
+
   return (
     <header
       className="py-4"
@@ -30,13 +36,21 @@ const TopHeader = () => {
             btnName="GIFT CARDS"
           />
         </Link>
+        <div onClick={() => dispatch(openQuiz())}>
+          <CustomButton
+            src={"/asessts/topheader/bulb.png"}
+            btnName="ACNE QUIZ"
+          />
+        </div>
 
-        <CustomButton src={"/asessts/topheader/bulb.png"} btnName="ACNE QUIZ" />
-        <CustomButton
-          src={"/asessts/topheader/note.png"}
-          btnName="TRACK INGREDIENT"
-        />
+        <Link to={"/checkIngredients"}>
+          <CustomButton
+            src={"/asessts/topheader/note.png"}
+            btnName="TRACK INGREDIENT"
+          />
+        </Link>
       </div>
+      {isQuizOpen && <AcneQuiz />}
     </header>
   );
 };
