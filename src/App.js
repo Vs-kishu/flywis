@@ -44,7 +44,7 @@ const appRouter = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/", // This is the default route for the parent component
+        path: "/",
         element: <Home />,
       },
       {
