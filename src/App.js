@@ -28,6 +28,9 @@ const AllProducts = lazy(() => import("./components/productPage/ProductPage"));
 const RecomendedProduct = lazy(() =>
   import("./components/AcneQuiz/RecomendedProduct")
 );
+const CheckIngredients = lazy(() =>
+  import("./components/trackIngredient/CheckIngredients")
+);
 
 const LazyComponent = (Component) => {
   return (
@@ -107,6 +110,10 @@ const appRouter = createBrowserRouter([
       {
         path: "acnequiz/recomended",
         element: LazyComponent(<RecomendedProduct />),
+      },
+      {
+        path: "checkIngredients",
+        element: LazyComponent(<CheckIngredients />),
       },
     ],
   },

@@ -2,15 +2,15 @@ import { useNavigate } from "react-router-dom";
 export const Header = ({ heading, styles }) => {
   const navigate = useNavigate();
   return (
-    <div className="relative my-14">
+    <div className="relative ">
       <h1
-        className={`text-6xl ${
+        className={`text-6xl  py-14 ${
           styles ? styles : "font-light"
-        }  text-center text-primary`}
+        }  text-center  text-primary`}
       >
         {heading}
       </h1>
-      <div className="absolute -top-4  left-12">
+      <div className="absolute top-0 bottom-0 py-14 left-12">
         <img
           onClick={() => navigate(-1)}
           className="cursor-pointer"
