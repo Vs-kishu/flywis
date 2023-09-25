@@ -52,7 +52,7 @@ const LogIn = () => {
           </span>
           <Link
             className="font-semibold underline underline-offset-2"
-            to="signup"
+            to="/signup"
           >
             SIGN UP NOW
           </Link>
