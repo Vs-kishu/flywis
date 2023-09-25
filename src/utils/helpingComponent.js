@@ -36,7 +36,7 @@ export const ValidInput = ({ props }) => {
   return (
     <label
       htmlFor={label}
-      className="flex flex-col gap-2 font-medium text-2xl text-secondary"
+      className="flex flex-col gap-5 font-medium text-2xl text-secondary"
     >
       {label}
       <input
