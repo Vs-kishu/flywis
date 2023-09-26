@@ -36,7 +36,7 @@ export const PrimaryButton = ({ btnName, styles }) => {
 };
 
 export const ValidInput = ({ props }) => {
-  const { label, placeholder, type } = props;
+  const { label, placeholder, type, register } = props;
 
   return (
     <label
@@ -48,6 +48,7 @@ export const ValidInput = ({ props }) => {
         type={type}
         placeholder={placeholder}
         id={label}
+        {...register(label, { required: true })}
         className="w-full py-6 appearance-none px-12 border-none text-gray-700"
       />
     </label>

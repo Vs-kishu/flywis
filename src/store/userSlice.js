@@ -7,5 +7,15 @@ const initialState = {
 const userSlice = createSlice({
   name: "user",
   initialState,
-  reducers: {},
+  reducers: {
+    Login: (state, action) => {
+      state.isLoggedIn = true;
+    },
+    LogOut: (state, action) => {
+      state.isLoggedIn = false;
+    },
+  },
 });
+
+export const { Login } = userSlice.actions;
+export default userSlice.reducer;

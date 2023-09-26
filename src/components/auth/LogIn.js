@@ -5,8 +5,21 @@ import {
   PrimaryButton,
   ValidInput,
 } from "../../utils/helpingComponent";
+import { useForm } from "react-hook-form";
+import { useDispatch } from "react-redux";
+import { Login } from "../../store/userSlice";
 
 const LogIn = () => {
+  const dispatch = useDispatch();
+  const { register, getValues } = useForm({
+    mode: "all",
+  });
+  const handleSubmit = () => {
+    const data = getValues();
+    console.log(data);
+    dispatch(Login(data));
+  };
+
   return (
     <section>
       <Header heading={"Login"} />
@@ -16,6 +29,7 @@ const LogIn = () => {
             label: "Phone No.",
             type: "number",
             placeholder: "Enter your Phone Number",
+            register,
           }}
         />
         <ValidInput
@@ -23,9 +37,10 @@ const LogIn = () => {
             type: "password",
             label: "Password",
             placeholder: "Enter your Password",
+            register,
           }}
         />
-        <div className="flex justify-center my-4">
+        <div onClick={handleSubmit} className="flex justify-center my-4">
           <PrimaryButton btnName={"SIGN IN"} />
         </div>
         <div className="text-2xl ">
