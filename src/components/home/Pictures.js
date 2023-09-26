@@ -14,7 +14,7 @@ const Pictures = () => {
             onMouseEnter={() => sethover(index)}
             onMouseLeave={() => sethover(null)}
             key={index}
-            className="relative w-72 h-72"
+            className="relative w-72 h-72 flex-shrink-0"
           >
             <img
               key={index}
@@ -32,7 +32,6 @@ const Pictures = () => {
                   <PiInstagramLogoLight className="text-9xl text-white cursor-pointer" />
                   <span className="text-lg font-normal">VIEW ON INSTAGRAM</span>
                 </Link>
-                v
               </div>
             )}
           </div>

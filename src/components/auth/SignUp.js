@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Header, ValidInput } from "../../utils/helpingComponent";
 import { ContactNumber } from "./ContactNumber";
 import Gender from "./Gender";
@@ -18,6 +19,10 @@ const gender = [
   },
 ];
 const SignUp = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
+
   return (
     <section>
       <Header heading={"Sign-Up"} />
