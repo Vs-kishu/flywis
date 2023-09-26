@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   Header,
   PrimaryButton,
@@ -11,13 +11,14 @@ import { Login } from "../../store/userSlice";
 
 const LogIn = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const { register, getValues } = useForm({
     mode: "all",
   });
   const handleSubmit = () => {
     const data = getValues();
-    console.log(data);
     dispatch(Login(data));
+    navigate("/");
   };
 
   return (
