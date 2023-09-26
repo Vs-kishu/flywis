@@ -131,14 +131,16 @@ const appRouter = createBrowserRouter([
 
 function App() {
   return (
-    <div>
+    <main>
       <TopHeader />
       <Navbar />
       <MenuOptions />
       {/* Use Outlet to render child routes */}
-      <Outlet />
+      <section className="pb-20">
+        <Outlet />
+      </section>
       <Footer />
-    </div>
+    </main>
   );
 }
 

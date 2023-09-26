@@ -1,10 +1,16 @@
 import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiSolidLike } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const GalleryCard = ({ src, service }) => {
   return (
-    <div>
+    <Link
+      to={
+        "https://www.instagram.com/nurse.shahina/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+      }
+      target="_blank"
+    >
       <div className="relative h-[70vh]">
         <img
           className="h-full object-cover w-full"
@@ -20,7 +26,7 @@ const GalleryCard = ({ src, service }) => {
         </div>
       </div>
       <h2 className="text-center text-xl font-semibold my-5">{service}</h2>
-    </div>
+    </Link>
   );
 };
 

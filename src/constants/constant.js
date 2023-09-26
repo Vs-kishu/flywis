@@ -199,47 +199,59 @@ const DIAMOND_MEDAL =
 
 const galleryImages = [
   {
-    src: "https://s3-alpha-sig.figma.com/img/a25a/a5f5/22c3cf673bf2f6ff4126eb30c3240dda?Expires=1695600000&Signature=GLQ9cIMyuVR~PzbX7vmIsRwQHNXb0M~C~-Qn5IINTBOi0wY6iXnR6bH1ezRUsQf3E8hqiSTULP274k6J1eLFdTjXa00VlJI-5iLFz3xjN22a-jDDpsvMZyzFuaDxTcTijpMwiN0MSt2G1bOdEPrt4rrtPor5Di~ED0IikOxGuhd2GibGUqGcLOTaVe18o7lYUCUtuWVjwDpfViigkVagONB2jouOPZszp7pv6lYuDIhcW0LNk1xnHxw-LGir-8WnVgWl9CDAFdPzeRkMNwMj4vSRMOcRb~h0J6JXd0LSEggZFIxYmvXQCydFGFGixHPDW0fp2GOASB~9NZuJKPTMUw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Microneedling",
+    src: "https://s3-alpha-sig.figma.com/img/a25a/a5f5/22c3cf673bf2f6ff4126eb30c3240dda?Expires=1696809600&Signature=JeP2zUx2kgYpNxD~Z3mzBkaZ0uhxj0cAleXSYM9jTX7BJNN-dI4m3jjQyfiIhwklSrsfTBJPxwiZd7euLKExSCxENfOePstgRglFs4NRDX2b0irPFtxwzEFIyFYpoRPEFYiBcIhvOlJ11R28kpfy~k0B2uAxiByiwL88m4c3kCQjipwWVwCmcbk9bgKs7sDoYktUschbn9TURUgjcHDSv3nLzOeczUhN1kqlJvYYjmt1DY34TOFzrxYsSR8IM82WUo-ulwe~9Tv8SwVT819of9v2xN79rk-SpSZSK8a5o1zVGptZsP2gAoV~uOx02YF5OqtJ8zcaLkYUFxwNAKhvAw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
-    src: "https://s3-alpha-sig.figma.com/img/7df6/8aca/cbcc438e39909a1787036442e14812b0?Expires=1695600000&Signature=Yx4BYybV1L75PKq2kejLP~0W3uj9JP6sjeXClgwsrzmf9v-tajeyNo8JkHdcIfbLWikqITQik38DGaZ4iWO3Ot-1DFhanRPtknvbE6hqd3OTEV9-pUIZ4ahCjqUjJt9tW1k2uf~eelYu72pQHN94591iU-4hhFgYnWo~i0X4FJ7w8wnBQXpQyLb-ZZnB~g8mtSNiE-XEJpiCp8uHHzhHBNQZIyTlQj5WSNwQ5K7GadW5QqpBd02m-0aTcXcFa1XiHjbVj-XFr4iFT6ttfdnFETxL0TSnm-vr5A6zuBVKaxwwh2oZTqZvUEgWlkTxnUYfMyk3O-glMDHpi7btuaR2JA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Jet Facial Treatment",
+    src: "https://s3-alpha-sig.figma.com/img/7df6/8aca/cbcc438e39909a1787036442e14812b0?Expires=1696809600&Signature=d3i6pLiCZi3v4TjhRx4OB8C2G38kuWqL8o9AipyooRvvkPdHYbQUnE5HmiIk~DgJx40jYirT8bQAgc7h~V6MdPggB7IiyXacFLGFBYfGuaItD6IstRGflmh3jZglgQjO9vsi2i4byp4NJ7iL4vHppU5fdEKGvnbJ0VM00YY-RpeDpA9uinc68dgrTzQg1iRrXyKcD0gG85lCuyUJNncP1~1gXQBGZWSiH8Dx7j2ZeatQKFkLBXY2cXOKAYa0axsEna5Xvb9PLPYGBEgYOaIWaKVNDcg0oVj4rcVIW0zbS6SzNUzfKkzj5y-pyANqYZPB4V-YwQ7XOXu2sZVNwzOQag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
-    src: "https://s3-alpha-sig.figma.com/img/1e97/8e3b/4c32148303fff071df351690236b69c2?Expires=1695600000&Signature=CDmJjsiJZp84LWXvhYaTenW-1YCiodnElQ6MKoyP0rni853tC5Ny5rFG68KKoRK5Ft8v4yhG17JouLlNIPT4Jz8a3XaPxTn8GImDxMiIwvD9kvitDYyBoQlPlUb54Te6a4DmDP0er-TpuYiXwJawD01oKpI5oCFQVJKWGh8qGx4N-dKf317wipJJTL87j9zUyN4of-vtceXKL19NAfyZ-qIshV5uQqnqPF5c6ebl0GKH~GB5z0dVZ~42O9mlTvHUHs4yDGvwgo7RSpxo8LATrsXJXXhF3MDcxX9eibUY2f3zPfclJjMtvYD4Uwm1I~lMiMzGF8OTUYFCCROY1Buhvw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Cosmelan Treatment",
+    src: "https://s3-alpha-sig.figma.com/img/1e97/8e3b/4c32148303fff071df351690236b69c2?Expires=1696809600&Signature=gcdCm3OPRD~1QCBzmCXfhgraLHh~0qEyx3X9ToLVZc-4jNsaQtqRkAohnHKwFpVS-1l1SJg8Zq6l4FcRb-deUjzBIUKzfH7akPN25QhcHdFpOqVNb0pLxcCUrT8zrE-bqyBQT8IY4i1waWDuc8UJ2ZXKACPasod~ks3tXinaToApiObtPFxxwyPxHHbgjAgXvsvSzHYUdnXkVQLQcwS6HwjJ6evrsNlh0EvVRDjXPJVmhsYbpFRkdqjUWxMIqpvIxOIqWCeIfaLU6xIzWR97z~YZBm-~81Z9LT7EasUnkoy13RxFOtwD2xUkh3OGZTF6D-jiANyqIw4jADO4uG2JHg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
-    src: "https://s3-alpha-sig.figma.com/img/66f8/4d14/301f45c11f07a57c02c725eeb70f0707?Expires=1695600000&Signature=PAlb-LIGhnyzPR~nP7pTh85JPAX3cjVjzm5iDwq3GoGJxNFAvcBugod7tTgcJyeXpxsZycwKKdXC43ga6WB3x0cogzU7qjp-wJvzfwDjHuftkMLueL3OKBc8GX6SunflWyiJNUdp9kPhUHwa4wY~32sMKRHeUYmUXwB~3VMGiC~nq1PTlF4ShQ6YcmXHjaHUsW3u7kG32dEAKtArc~gVyBlLhnDPrZ9C5vCoZ8IJOn6IpBVczgKg~tKb6PL6pTSwenkw13FLtK1aZo47fpsCsPtnrnBXE0Vc9lgzeoC2MCOQQibAvaryAYvcgKm4hAcSwX2drLN-rIv1cGnsx-E2DA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Microneedling",
+    src: "https://s3-alpha-sig.figma.com/img/66f8/4d14/301f45c11f07a57c02c725eeb70f0707?Expires=1696809600&Signature=ksywFpvEA~R7Em7lgOxrcQcSwyqcMYrrQVjijhbGPPzJ9VfcF3BrVlqzrxI81YFARl5sk2ZRSaLhyrN5zfn1DezSX188Q3N4MihELyictWAXcCWK3dF9YYYEHw8XHU1kB7OXFdDbtSNS0SKKGmXlMpX3ms3oA~XacoZWIl7hENrT1puEtXRzp8IQ4ckm9Tcv~NFcsu62aZzyKkzgBAfk2Hw3zog1MSiZ11cU3AnHh68lSbFqzhksJootvCWibJdXPLwZnx4S9x-5tOzVfx5w7jv1lteP9NF3IZir~92~SoaJsevtfJh8Lb7YrONbq-1HV8BzeJVCgB~pI~jOeANpRA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
-    src: "https://s3-alpha-sig.figma.com/img/cac8/d71c/fe25002a9ed8cc49825e8ee289350281?Expires=1695600000&Signature=GAM4WmJeeXg~YNsppPQWyIP~JEClKyaGztbA6U0maNTShc8yFqxj~s5x6W3auKbfeAMChG8UbPwOqjQARBZgEx-nUyAKjJv3sys7v3JrNJKoB1kLH2APZ-iSj0-XTFrhrP5vg2VBhdENEJF7q6y51rIG4JTgD-681vDqt4y6x-zC~UY2S2hcRQBBkOWRi-OOFMkZ2Hx-Y6Fv4wit8LfD5UP54ntM9MZcHGExhr8J9R9bTUnV2qQ6~snyNbqIV227i59hXD7XVHnboWkzgSxr14zllmgUq4jjfblY-3HzQ7YNLSMGiM23hU0G74qTCuOU65HIVfyfFAURLzsZoatXMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Microneedling",
+    src: "https://s3-alpha-sig.figma.com/img/cac8/d71c/fe25002a9ed8cc49825e8ee289350281?Expires=1696809600&Signature=GqAY0Qq2UDH5ajuZacndK8Gl0-FT0V8R2nJILw8oNZXTxt7WlPnaUXZHaeLvjbfvBE~A6CtjvOF64dSkAzA8jg1-YW2Ml7hEjpDaEwNGjeA5MHrL4eLmzs7-6OfGSWl8sbf1uXThRE7QuYHn6ez4XGb20VerhovniytMtV9UEgEd5DkSbqRcQRctAm6FsRgpQGpcsM1654L9P5xcVeb9oSdpWvbXdEtadqHKGGV317Q3lDlKzvYIoY-RF8LmBWXMGyRKkBqTg-sNpbTTu~7056HkS5NMFUmNpiIElhLwJF7lR8f3GgQ9vk3BZ-VARcFQGlMyR36PJNzxfylB6G0Qzg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
-    src: "https://s3-alpha-sig.figma.com/img/8622/5b26/1ebcc6a3d73293132764cd2bdbada56c?Expires=1695600000&Signature=HxoLVgRG6gP1bvPS8RTs2BHryEFpDF0i0x8A9PRQ92jzCzGMOwhBsSNIOQpBtsq29lRrhK7fkDbhnBjBuS6L2ajhGg3LtCc7kTCzDYBb3N3IcW0pBLP17FQ67RrdlVdVGmPWt29eLEDvoGFiXPCjaUx~MQFfarQEu8ev--YQVIZSmoScWlWrxPecsfdpmbqhEz4k5KqCcweAdaIZ7x19b1SOhTSnRAPuqA01rFuVuT~F13lMFYu655IRTTlRvACz9jlss6gMN5snk0fVdaIR~uNEWVDlmszhGGtwHGXSU-s5Iw67UQUfcHlyka2kcMIq7OW-MGdSUrSa5BKbJ5-~~Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Cosmelan Treatment",
+    src: "https://s3-alpha-sig.figma.com/img/8622/5b26/1ebcc6a3d73293132764cd2bdbada56c?Expires=1696809600&Signature=YMcD~6RaBuAFwhKvHQ9q7Xo98G7tWYLn3SLnHA9oZ851WJRE0zCojfAjvyH2AZo1NCj0I7zQBso0cZB8Ao6yhjjveIBUWXhN-FDPINtBI8IcIMCHxBHJCph2V0PFsBU-ipEiRtMCzXlH7p1Yu7HKbRxJB6a~3JXnoIa921hXSoGwpdtOE4wBGTTUsiFgzUe3n1~Yh6g3wtxCYi213YQHgVAdxxs6-XHXcXN2qz9Q8cGqDVKv-enneiq7AcsS6ybwxitaot1wSfqQjINQ96h63dxYhnZzOuF2bF3X12rHuHM7RzMahVXul~ce1wx2r-8WU-5M~BWxoKfbGMn4tIwwkw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  },
+  {
+    service: "Microneedling",
+    src: "https://s3-alpha-sig.figma.com/img/a25a/a5f5/22c3cf673bf2f6ff4126eb30c3240dda?Expires=1696809600&Signature=JeP2zUx2kgYpNxD~Z3mzBkaZ0uhxj0cAleXSYM9jTX7BJNN-dI4m3jjQyfiIhwklSrsfTBJPxwiZd7euLKExSCxENfOePstgRglFs4NRDX2b0irPFtxwzEFIyFYpoRPEFYiBcIhvOlJ11R28kpfy~k0B2uAxiByiwL88m4c3kCQjipwWVwCmcbk9bgKs7sDoYktUschbn9TURUgjcHDSv3nLzOeczUhN1kqlJvYYjmt1DY34TOFzrxYsSR8IM82WUo-ulwe~9Tv8SwVT819of9v2xN79rk-SpSZSK8a5o1zVGptZsP2gAoV~uOx02YF5OqtJ8zcaLkYUFxwNAKhvAw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  },
+  {
+    service: "Jet Facial Treatment",
+    src: "https://s3-alpha-sig.figma.com/img/7df6/8aca/cbcc438e39909a1787036442e14812b0?Expires=1696809600&Signature=d3i6pLiCZi3v4TjhRx4OB8C2G38kuWqL8o9AipyooRvvkPdHYbQUnE5HmiIk~DgJx40jYirT8bQAgc7h~V6MdPggB7IiyXacFLGFBYfGuaItD6IstRGflmh3jZglgQjO9vsi2i4byp4NJ7iL4vHppU5fdEKGvnbJ0VM00YY-RpeDpA9uinc68dgrTzQg1iRrXyKcD0gG85lCuyUJNncP1~1gXQBGZWSiH8Dx7j2ZeatQKFkLBXY2cXOKAYa0axsEna5Xvb9PLPYGBEgYOaIWaKVNDcg0oVj4rcVIW0zbS6SzNUzfKkzj5y-pyANqYZPB4V-YwQ7XOXu2sZVNwzOQag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  },
+  {
+    service: "Cosmelan Treatment",
+    src: "https://s3-alpha-sig.figma.com/img/1e97/8e3b/4c32148303fff071df351690236b69c2?Expires=1696809600&Signature=gcdCm3OPRD~1QCBzmCXfhgraLHh~0qEyx3X9ToLVZc-4jNsaQtqRkAohnHKwFpVS-1l1SJg8Zq6l4FcRb-deUjzBIUKzfH7akPN25QhcHdFpOqVNb0pLxcCUrT8zrE-bqyBQT8IY4i1waWDuc8UJ2ZXKACPasod~ks3tXinaToApiObtPFxxwyPxHHbgjAgXvsvSzHYUdnXkVQLQcwS6HwjJ6evrsNlh0EvVRDjXPJVmhsYbpFRkdqjUWxMIqpvIxOIqWCeIfaLU6xIzWR97z~YZBm-~81Z9LT7EasUnkoy13RxFOtwD2xUkh3OGZTF6D-jiANyqIw4jADO4uG2JHg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
 ];
 
 const PAYMENT_TYpes = [
   {
-    src: "https://s3-alpha-sig.figma.com/img/5a65/12f2/28ccef67e2fb8ee5d9c5a6164c8af649?Expires=1695600000&Signature=ZEzkWTa8eyGD2qBtxN3YXZSnEfePTdGP3ANEFf8cHkyr0bxcXzzhioj9MyLuGRz9wQzff86-TlMnxMcJijVI-iVIgXJSBrF2hw0Dm5guumpnvf2W83HR6t6kaK59liOasW~WaX1RFcaMSG0Tuezqo3X8PJmtUfNr2OeqSZEfbig-mFUDIgs4lWsrL9s6yRrMpDVoiftdHdJrepebsgiZ92ZMiqRlaTKKp6Hmho4wCK-VDzjNcpMSrfYvxkIvEYZGBUrDMS-t4mtqKiEl-JjjsBWHo6-N~THruK25Sp-j1XOpq8HJC9R4C865zJHh3HNPCT4MnssybUIUoldBbqgqBA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     type: "Quick Applications",
+    src: "https://s3-alpha-sig.figma.com/img/5a65/12f2/28ccef67e2fb8ee5d9c5a6164c8af649?Expires=1696809600&Signature=GjNzbHgfuhLbKA9xKlwBe2fuWMdrDrEUiWxa6GxjdONdFUGNPlXFq9EOlWFUXOXtOUfT3r2PcOEa-DAOpL0mR48tf14GOdA9iwk0pRjR6AVMtx601VxfkJ3CmwHx2SDF4EzMnLVxhjtJSweHO0X3lNIVYGHBMT9RfFMOIvls59NP320Fmi2pz~uOUEJ8-i3ZNwjHICzU33uOfutKBbtQVqFc3OewJczIkcOQdbDF9X2Ci7Mo6LN6KhdKEArwz6xRpW8ercmjx~raZAASSSbOyFeCUp8H4xGiMFUopWHHJ0-T8OXWwtHPjYIpQ3FlzSF4MmzqPUh~ubkukeko3XHglQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
-    src: "https://s3-alpha-sig.figma.com/img/67d6/e884/c551c1d32d16263b24e2b2efea2a2003?Expires=1695600000&Signature=dLR5Qdh1IZvQh69362RBKofXwuRupAFoZ7AwZ94rb2EuGWd3nIRK5UW20StYds4DI4c6mhuvzX4MCKbiNy6LxWPF6YRBM94eKnhTldqH9LSfznAs6kF0VQkF5nnaaixPHaHEK5j2NZ5j41jzxz7qcXXqr63Bsv1C4RPWjQUXXTjTdb2-r6KnQtz3iwyHz8hdxi~KfbSl8IL9F-VrutL3orirZ~hToGgWJNnoaHOddq6kRzk4pdhXKcEvaGv9ZEQk2teoN50m7hh9yzDzDw9OBVTzysVFiMxxtSlwCmXFxb5olzndVb4T9lx2teWm~TZH2nLet~QqnobKQZWH86OFXQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     type: "Flexible Payment Options",
+    src: "https://s3-alpha-sig.figma.com/img/67d6/e884/c551c1d32d16263b24e2b2efea2a2003?Expires=1696809600&Signature=LiAzXhVd5furwDtw0SVVsiNdmQzZIhugWJQItGiXsRKwfx3zVgfZ2RKDPJEiwVDezyxX0VP9XRTwjdZoePYDUvXJ0Dr11ShSf29WAUKvvZJGq9hKasdWoJ~pfifvtBksmqZqXrv9t6ZFR0lAmolQ4wnbho9-fJVJ2oRviv1PeYF~7YYRFubUSXlkc7IZ7svN44p4y-D3AN8BwNwlNTcqOXSt2QxzKXDYN-TCZJG7HCzuaK0OeHkH4RNYaM-yh9vlTmy7w~9v45pL-fU2kEe5Bl-pqMVXLZrqMI4k76sEmaXFjRuOH~TVZS372LSPIKf5WrqkQErT1vPW11D-xva8qw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
-    src: "https://s3-alpha-sig.figma.com/img/2481/41b0/351fe0efc07da455ad7e11e2e1386290?Expires=1695600000&Signature=AGfYsQPyn0EeSVYWpubi2D60MtY3jTQ6s8DrfgazXvWkimAQCP0zm0aQ-bdQ7ebNYs-d5WqDBmv-DhH~15AgiFZmPE2kqubosw7Q1JwmSpSjoG2TxhgIQrGrOdWy23Cy46EQIJ45Nhl23FL7gUCS1NPBki-bjLwdMqbpFSf1rhF75C~RP~kPLAk0PV8qvSlPMBEpP5Wj8NndgXQEb~DkxHmrei5ZhaiCZqdHrcv-XUWnlJIARFH4QhJzE8GKPjWrcgYTVpa25zYukOz9yYqIBb4DDpZqQrZDbg-PCiwLcd0VnY74bmcO9msdegkpsuXIu~xr~TAwsPaB40TfIH3Etg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     type: "No Hard Credit Check",
+    src: "https://s3-alpha-sig.figma.com/img/2481/41b0/351fe0efc07da455ad7e11e2e1386290?Expires=1696809600&Signature=ACDcdLkSBXYquwxXiwGXDWpaIsDQWe8XOEymP-BvmSBh28Sn8HQg~ytfeqkuoQGTI1XuVd7-WNuTsgPMPWfaE6u4PLB9ETRtjH6Nf8DBnTSomt6Pkno31vCUj-NkbnSqZieu0pLyI3Mbh1WiN-Y5lnjdA18oolEuf-EvobuGQNudoOmxbQdy6sFHi~96n1zq9-BqnoN5FKQODR7zZNP-~44Tfe0Av~apaQfHSehieaRpif7kAlWVcPtczYJhIY-3mfUJajoTtyVqhHao~C2CuBRCqBmIBY-uJ8E5jHozHoxK91FZM-braW6WLg1dIKyEswdgBbbecza-oBekDCh-ng__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
-    src: "https://s3-alpha-sig.figma.com/img/7cdf/39dd/36226ae6544374ca0dd67eab301482c9?Expires=1695600000&Signature=OaYDj73pXxBGDDf9nZ12Wdtm68hrAa9grFqYRTpptDxdBjueDT2Z2Yyv4-hkgYtj~KPYpZ9Vaikqa6rGLrdcmrw1Gc8ohXMaiS6T-rnoArEBUIJBaTbA21RIMDZFs~T9dtR-0hCRDPoQkj-N3cUP5crmdah5X6j4cLwiDjcQdGf2xkGpk3yOOJDwm~SMWtKPAtteT9WqDBGxOvfip8V2rUZd1GUObTgTZLVIUiDMsXre0zHoq43aCSmYlQXaxx8CTE3mx3NXF6vRsSKQ~KKunMBNxQGjcPw7TKzowRv8522UvOYV~rRvDPpYVavlWK1AB4bQcVt2IJFKI077ts~RLQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     type: "High Approval Rate",
+    src: "https://s3-alpha-sig.figma.com/img/7cdf/39dd/36226ae6544374ca0dd67eab301482c9?Expires=1696809600&Signature=omnrgtbMYZes6vz8T1a04L93iOABwqSOTkKQZJUO-6EuOwQmEoeY1Ii8PCSGvIVEXgrEsrHp9DBYB4UhuLCUGvbgKuHv5V-bqavNjob9103QoS-H-5osxR26wIJw5JgF3cK4F0ckCbexR6rfwudBwJFYLx4nAS5uC4X7nlSf6V-rFQLy0TrZuNQCFFD4S2MYZdSMZiWIGyyu~MirdnGCQTBObnDeFCDD8vMo-V3HcYr7hY2e7Mn2fTQNr8mP-oOsrEDrYLpkZgIG8~tnoGmXNoCHoGKZ43KuQ0KaYiostQT9mTk0zfA-a-XD2fFbQ0TSQoJpKnSLqzK3NHBe3MEotg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
 ];
 

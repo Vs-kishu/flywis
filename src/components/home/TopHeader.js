@@ -46,7 +46,7 @@ const TopHeader = () => {
         <Link to={"/checkIngredients"}>
           <CustomButton
             src={"/asessts/topheader/note.png"}
-            btnName="TRACK INGREDIENT"
+            btnName="CHECK INGREDIENT"
           />
         </Link>
       </div>
