@@ -30,6 +30,7 @@ import {
   TopHeader,
 } from "./pages/Allpages";
 import ThankuScreen from "./components/ThankuScreen";
+import ServicePage from "./components/Services/ServicePage";
 
 const LazyComponent = (Component) => {
   return (
@@ -89,6 +90,12 @@ const appRouter = createBrowserRouter([
       {
         path: "services",
         element: LazyComponent(<ServiceTab />),
+        children: [
+          {
+            path: ":service",
+            element: <ServicePage />,
+          },
+        ],
       },
       {
         path: "gallery",

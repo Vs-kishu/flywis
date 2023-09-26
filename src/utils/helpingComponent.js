@@ -23,9 +23,9 @@ export const Header = ({ heading, styles }) => {
   );
 };
 
-export const PrimaryButton = ({ btnName }) => {
+export const PrimaryButton = ({ btnName, styles }) => {
   return (
-    <button className="w-96 py-6 bg-primary text-secondary text-2xl font-bold">
+    <button className={`w-96 py-6 ${styles} text-2xl font-bold`}>
       {btnName}
     </button>
   );

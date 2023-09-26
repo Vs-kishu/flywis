@@ -9,19 +9,26 @@ const ServiceCardImages = [
   {
     src: "https://s3-alpha-sig.figma.com/img/0677/4150/8ab9a9d80196a8fb9f01e940dbf0d7e1?Expires=1696809600&Signature=qcTk1q0hf7A0NZG9GWsFF4dbTzOdJg-92ksG4jQ4gAHEtQVyYWqDpOUH0C3yaoknWbxf204Pa8XvcVRvlx9AIZfabpqcrDz2n6c~0r0dPk1A8HdXGxoYT12Euo7hdqtHS4zl~Rr~XpTHtP5uoKemksZ2y--0v42l8-EkDbxnEnS983a4QmFAnu8yQgF7FwFXQpkX1Bzrbol-Ydw-xrbzSYjmEUK8GRMKhpFAjAocHJjXkIwIdP~57TyvHuwT2Gy1Z2Vvctck7NPh83-IxpsekhVEWBu8w24bPStkaj8KQ4h3sNhws~DcTc9RoWKuHjFF2LJKtGi7gDPaZTmW~le8lw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Hair Loss",
+    serviceImg:
+      "https://s3-alpha-sig.figma.com/img/2ed0/5a42/ddcb0da77b8b5df74db48a4a6b31d30a?Expires=1696809600&Signature=GT-KP7FaamEBKREBElpsSM6ityGziyGo33WxhfaPeUmwIGKwM7IBSn1RbBnlGJJSxVFdjIYFaoQe6fETl8hzWZA4yt~OgHhvfTlL6SzDb3j0AqfSW1cKZkQLM0g8UlHARcef0q~s2f4FUMoXwPSCHMNAWcb8sC~nVNme8sBIfwLjCaqG1m90vdVKcPbaSgldEVLEyv5-dGcKK3bb8RSNYrTRCU2P8f6wOcCHRYlEc-Ni22A7oDcRZ1P6bmF37uWXVa3Mi7ZuEyJBwGabON5fh2JszlmhBWeoEcxbK8Wldl-r1Ta7rdenRENF59SAR5WML9xr8FxHGZKsAFr~fTzKsQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
     src: "https://s3-alpha-sig.figma.com/img/5c41/0b62/48165230d1b4763459c0b9d0503e0b05?Expires=1696809600&Signature=fOJBYYZ3QI35iuX0wxKPIUCQUry7Zln5YYG-i~-JEtcxyo-GrI2GnqkImPjXdwQY1os0mKEGjmdyJVDqss5ER-JeA6Zfb~0XFDx8i~hYopp9p8bNCBURsMgUND5kK-4jF--M-boK4m-WmuXjO5BLwiWM-lvwaHEYnTISMt0FmZt1a1gYaMr4KGzUNLOFfpCXBjgALgnH~UxUIr-gbeik6ZP-bKbMkK6r1d5DX9Pw1HeQmTg5vo4kF9WA-7cLjnbpSxQAsep~XR6HAnWNT0bYcLDPYlXHsyHDjE-PgqZlKEWA3O9Oax--paM3glhpfnfaLkfF8WIVwGnTh61lPoOVYw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Pigmentation",
+    serviceImg:
+      "https://s3-alpha-sig.figma.com/img/ff4a/1be1/e8b007079706f91b11351456377c85b5?Expires=1696809600&Signature=avYUT8q3p4JXNdaB5~QGJiXk8PHYDm2zee2-fhT9YOtzq6QBx9Nbp1emLIEQ4itQYo57Gisxyeb1b7eVknNPdPGKyNubsM7El8dFHN9VIXKX4W~UMmm~PomlPvW~eZMg9sxtsbRedFVtK1easCiDImNhKvbjeSGevZot2O3o~FchBVVS9aevNHSA8dZs5T1qHqApdjzTv~MsfmCWnttN17Jvq6VFdN0ATTVQTOuEQ~HdGTHPZ5Hxml6UDKscw8y9hBbCthml2o0dl9yqNulOWmysyeMxxISOrJkpkAb4FoHmkExSYKo2Si6Yyu-dD8hZcEKc1n5-62e08Y--O5TfcA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
     src: "https://s3-alpha-sig.figma.com/img/8d1f/0c15/fbbdbebb3f93e537f447b4fdcda75b81?Expires=1696809600&Signature=k7Pw1NTG3~C99AatrBbWT3N-wSNCqUzF2EYlsvhfahGwptUzFrhu7pmFyn9GgjrY4482cVJb3~NiAxXH6xX24GkGw~uNGs9y91UziDuOfCT1g~SBMW8K5~TlVqB-aYjYmM69-NIrSdRQpr~R3zAmSc7uFbU4iA54UTiqfVO~oASG7nQ-1nBns1zh6~xJ1HLh9YLp5gODW3f0rRbRJC6B-OdyjtSq4HNMqqizWYrFycPpKZHdzvRN9ekv5kWgscbjEn0QGYb5N0XFRd54I32UbOhDE5MPcpe9QV6txZdEsqBR5zP6KRtGrdxGtdampPd9~dXXUE5Wdli0t0K1f3sUqQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Acne",
+    serviceImg:
+      "https://s3-alpha-sig.figma.com/img/03c6/fa27/830b0a0716bdf2d066724f286a594e31?Expires=1696809600&Signature=ZS0gBEhbOhmQxK454VVrhCB7f~y2-TDovPmuqzusvxfThPsHcABAaY8xruslckqNEnogpdUtbnKw1cVLAJzrlT9lpQ2rKAhNECh6m~1IFd-OIncnVwcFzJGU6uCEki6K8X4sJxuZPV566IepCJsbBvqtmxAkq482mR1p9vT9AhCtdTwGFOWDbaB7IztoWL1YlxnboWOKBGlbvhWupQSNeGijN293fFayzKVD0ZYISPqQE1dYpY743sWTiajjixMeuuP8iuHRToPBMpb9DCDNdIP5~wbYMcfgm7YFi4J9OksPJ6fKKcz-uqnGH7xST0YCUIhHronPJZeVFxcAxN7I7Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
     src: "https://s3-alpha-sig.figma.com/img/4817/731b/d3acaa81009111494bfd9a5a63a9ce7a?Expires=1696809600&Signature=Q90IfpgrfzzzyZaZCRtUZ5lqCZ0oaLI8e2GAscy5q0hTYcLoDhpzv2q5Vudj7aPlIektiuZFa0YOoNydH-p8KfKPlGhpDcBjurj7Xq91Qw1Zg1PNjwSMfyRYxvfcXoDSgtjy3snQKY0iEsA2jcQai002mUl5Ok~DW~d05E84i3r523Bc8UeQmY6rWKcS3F4oCn9G1knBBWVawjV8cxeIu3UX9KBOk7ZXbRucMStXfJ4WItmzuwU0vzbpau0j4x3vHeg9OXvR5HEF~gYVtp77gBMuCakuomuevRnycb31iZmAa~u9wdZaFU8CvcxN2KzzmQ3j4m2Ud4P1hygI5-6tVg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
-
     service: "Aging",
+    serviceImg:
+      "https://s3-alpha-sig.figma.com/img/cc60/92a8/7963e7f2ba9d35dfe0cb4ddff4deb583?Expires=1696809600&Signature=OOXl01e4qyEkskTDH9qtR5CmJ5S7bhTo1uSNbtQptSjY4~1KOxQBBIqG~NJBzN5RNviMRCuJaLlMT169xnRoJSJpfg8658epyiGkt9Uah8O4wkFO7r1SztYg~juxJoDJ2a34esHFL4FuqH94k1pO6d9waMWnDxtMMVvh3lRFtUgdsnGX~S38YJO-VKEAyoFNgvPlkH47lUrQQZaxd63OR6UZINTlF5RBNEw5EtqMmbmwgWrPAo~AqCWVYXmSHNCP2Um4jh0Cxflbg-TE0UIC9qNQzaRgOtoibHtf0XAtEb2Z5sfOqQUhSA6eMM7EW77V~EOzsqzfDjigOMeA63yMmQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
     src: "https://s3-alpha-sig.figma.com/img/3804/b0a6/6f1698dffe01fc5ae44e540d0c25a5de?Expires=1696809600&Signature=pnthW4FTXCH5-oCj1mF3-WSNI1DhlyflEM7zGjrA4cQ-g7snuslJEyj02rrDc7LSm1Z07RKdp-tXUSQtGG2A~kgq1oiSLRUX3JcC06uB7qsOBbwxaRg7PsPiLdgi8aS~awm8ORP7sOUIvUbZFHKwj0nuMwmpS5kmWrzWCzd8A~sHMrptNwsZ5ARjG8k5M7LIgreZaBsvh-iLF1qxbtHH-rcjjwpkEeW08M2KWh7w7BbsSTKR0UL3PYjmcij0UvGHPkGAfS5gT3qROE61mhuC~4oLgc94MO4BM1xMJ0u5uaeUzyTEgWA0NBMciAC5TWd3bh6xOKTlChZExmM952kXtA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
@@ -30,14 +37,20 @@ const ServiceCardImages = [
   {
     src: "https://s3-alpha-sig.figma.com/img/8c21/d76f/78a90a74c6a4a811449adb050f2605b8?Expires=1696809600&Signature=U-io03CZbTAhpQBNdyYyaDD2x9JzUdCuTeHC8xdBzkNoO78bY~hJlggM00sTzntaViIieCbGllOaUeFgBhS8NAQ0y8hTPDhuluMp8x~LhUP4iyMSAuMrYxYxk1x~GgsG4BP7fayUI0c~~0v6fyiW09j46EHg0X17Wgf2xg1VtpE6Cs39jS~fvwAbbHemj2gdchlwHV~STAQb54KxkwKduzvNtHaDtmeKDnVehimkFk~ebHHx2gmQlINOOFXOQU5R8tmVi-h6ZiA3PSfIWmmyRraRa-ypZRkQb3YSsu~0yDXemwOunovl2vZexW5xlf3ypi-vU6L03uiQx~YsD7bf8w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Acne Scar",
+    serviceImg:
+      "https://s3-alpha-sig.figma.com/img/7229/9b32/6647557fb5510ba16d272868682ce4e4?Expires=1696809600&Signature=Q~hduEFmH4AsAWWyqclumsyjA-iHlfYMsDOYVa16RenYqOUpAsvSTeFUggQWTC-mj9XsShzdXvDzDb6gelMk-9ruze6sQo5JBsEcWy1udb1x~9-5EYjhX7qVRVnzbLJ1O1LChAi5fnYpR6-5ZVxVLFXSHe~SKUcNiW2JFzLdK7FO7-AXDWeUUFCxsc4HzfEkmCfknChfZDgEexu9PKxJUz3xh7Go4syzVGrh3t6Vr5QvCyvT9ixWmFM29c~Y0ucKAnrwWRTnhDjDK97F5PuKQ1fFkZ4CnDpziPuzMAVUHUqxS5w585NV1qMEMYdoCTH1QeYP5UnGjAsHiBl8-zDWmA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
     src: "https://s3-alpha-sig.figma.com/img/b46b/41b3/cedc4aa2ca105e35a79d81cad7b24d85?Expires=1696809600&Signature=G1NJblN0yiBX5vS6P9Pdubc11YJBQ5I2vSZFiWgJhlN7bx~PnkcXnT6Or7aijHfPw5SflNe6fBkbTps5leX8D3EXyJwfMEIoSLlOLygcaMcVMZ41XOcEh0rMVANbDTce07tQ-5bf20z3V~paIyNE953FF9eqBCwsqJZLca7UTMqy~mmssLdsxS3zBFusrN1Gg8Izp6ZpWyK6bv3kG~jwYqE4IqzvPksr42hI9qG6xHr9x1pLhofnSNHS-YBl2A2zm3fpZNS8QHeXoLPlGl~4THREQ0zlreCpoxgdGuEYVpsYYSa5a1ZYl1xWF5kvRkCuIKFVCTQb2A5h3~s-18B4Qg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "Laser Hair Removal",
+    serviceImg:
+      "https://s3-alpha-sig.figma.com/img/78a4/4306/87355f9a5c51ff073ecee8d6fe13c3d9?Expires=1696809600&Signature=l5SBORAxC4G0QqdwGlcGDOgR5njYtvQmq9c0XeyjYaiSUPwGtZOxxTcDx~RaJTe1fWarHGbybVi516-426aYGjbqh6ow2lbDQun2J78XADVdru99tsbEFPkX9co8S9eTAMLZ94NkzBhJZ2fCxDRyMQtHK62YStjRw5oxVXeFgEKxx6WdZh9Mwqv1pS5Jn7HGsEKRbUAkW0plUchPInskbhO8yaO16K2VjuZnpRe5W8mPmhSWO9dwhWCPF6BPxsZgkZ9EAQvYqzPPBUWjYRxWWwBJOsxlU1-SP1ze1T8NrMXdj7GUtt8B2JdcPJThrNilZzRnx24P8qfyGwAO9cQR4A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
   {
     src: "https://s3-alpha-sig.figma.com/img/bc3f/2aad/cff57b10a3331b29b4ce48cb74b07651?Expires=1696809600&Signature=fwklXunNa-3OucnTtC~KYYejXXH-XLwKDCYFkB-tOH8WcX7xOp2cDM1rqPOYqM2ErXGFqspAfCoKXY7IDFw7596ukJgMwKUnJlSUaepOvMlnGDhv2b3uVSesxBYvkEpfat589YY9EEUFuf3RbyHLf9LXoMNmC~ykmsItnylhEGO8BtcsAJ-woKlSmQVWjF4KW8BEHsf17CluPOI6q0atqgZDL-WAoEpV3IxRGkgrSh9-CHl-jcwXfzTv7ocRwarwnpHvTNbgKXd-iTr7T6HYUO~JOtpDhoV2I7MR0p8sYKyfSD4q7OtpBU4A2mnjxaI0E89k3ivVTgfW4IbzAP4NDQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     service: "IV Injection",
+    serviceImg:
+      "https://s3-alpha-sig.figma.com/img/7b80/30ca/2c7e4d36b96353debd45052c04031c0b?Expires=1696809600&Signature=KmS1d~yo60puCzdt2jUiDJp-hX7yoPK1vUeBV2t2luOoFkA8p3TAS34OpYG0n6NNMq3q-lgsFlw4G6ArTDYErlzJWkOwFALRv7eOmyC5bfNVp7sz82dnWFiM8leso-4Eno2zrCvbjJSXDmsVd-Qrp2MwDK9yrZu4MgA4hB~N7D01txUZVoIh3qpaZ0FLLkncgwZBXIrtNN3f68Fpv0E~6DqJf5JdXvMVZmBHVEXqzNwdEZG54xU1KGKq24oo0FZJTHEy0sbu4xUNCynui5Tc2w3x4Vkitz23NuSEpGKHutnVwlPU33ZLeBX2sY8pno7gtBpkaCt9qoT-2WqDe8LS4w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
 ];
 
