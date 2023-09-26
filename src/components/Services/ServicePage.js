@@ -31,9 +31,9 @@ const ServicePage = () => {
     (item) => item.service === serviceName
   );
 
-  //   useEffect(() => {
-  //     window.scrollTo({ top: 0 });
-  //   }, []);
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
 
   if (!foundService) return;
   const { src, service, serviceImg } = foundService;
