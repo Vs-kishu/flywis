@@ -31,6 +31,8 @@ import {
 } from "./pages/Allpages";
 import ThankuScreen from "./components/ThankuScreen";
 import ServicePage from "./components/Services/ServicePage";
+import { useDispatch, useSelector } from "react-redux";
+import { Login } from "./store/userSlice";
 
 const LazyComponent = (Component) => {
   return (
@@ -130,15 +132,20 @@ const appRouter = createBrowserRouter([
 ]);
 
 function App() {
+  // const dispatch = useDispatch();
+  // const userData = localStorage.getItem("userData");
+  // const isuser = JSON.parse(userData);
+
+  // if (isuser) {
+  //   dispatch(Login(isuser));
+  // }
   return (
     <main>
       <TopHeader />
       <Navbar />
       <MenuOptions />
       {/* Use Outlet to render child routes */}
-      <section className="pb-20">
-        <Outlet />
-      </section>
+      <Outlet />
       <Footer />
     </main>
   );

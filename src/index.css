@@ -48,3 +48,6 @@ background: linear-gradient(113deg, #B8860B -3.09%, #ECBD00 100%);}
   opacity: 0;
   transition: opacity 300ms ease-in-out;
 }
+.flip-horizontal {
+  --transform-scale-x: -1;
+}

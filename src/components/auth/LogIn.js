@@ -17,7 +17,9 @@ const LogIn = () => {
   });
   const handleSubmit = () => {
     const data = getValues();
+    console.log(data);
     dispatch(Login(data));
+
     navigate("/");
   };
 
@@ -27,6 +29,7 @@ const LogIn = () => {
       <div className="w-[64.87rem] h-[49.5rem] bg-primary text-secondary mx-auto py-20 px-36 flex flex-col gap-8 items-center mb-20">
         <ValidInput
           props={{
+            name: "phoneNo",
             label: "Phone No.",
             type: "number",
             placeholder: "Enter your Phone Number",
@@ -35,6 +38,7 @@ const LogIn = () => {
         />
         <ValidInput
           props={{
+            name: "password",
             type: "password",
             label: "Password",
             placeholder: "Enter your Password",

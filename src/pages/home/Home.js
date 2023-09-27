@@ -12,6 +12,7 @@ import OfferBanner from "../../components/home/OfferBanner";
 const Home = () => {
   const [isBanner, setBanner] = useState(false);
   useEffect(() => {
+    window.scrollTo({ top: 0 });
     setBanner(true);
   }, []);
   return (
