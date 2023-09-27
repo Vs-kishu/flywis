@@ -31,8 +31,6 @@ import {
 } from "./pages/Allpages";
 import ThankuScreen from "./components/ThankuScreen";
 import ServicePage from "./components/Services/ServicePage";
-import { useDispatch, useSelector } from "react-redux";
-import { Login } from "./store/userSlice";
 
 const LazyComponent = (Component) => {
   return (
